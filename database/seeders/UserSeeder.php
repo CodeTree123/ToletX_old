@@ -15,19 +15,22 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name'=>'Admin',
-            'email'=>'toletx@gmail.com',
-            'Phone'=>'017',
-            'password'=>bcrypt('toletx1234'),
-            'role_id'=>'1',
+            'name' => 'Admin',
+            'email' => 'toletx@gmail.com',
+            'Phone' => '017',
+            'gender' => 'male',
+            'date_of_birth' => '10/04/1986',
+            'password' => bcrypt('toletx1234'),
+            'role_id' => '1',
         ]);
         User::create([
-            'name'=>'Rafsan',
-            'email'=>'rafsan@gmail.com',
-            'Phone'=>'01',
-            'password'=>bcrypt('12'),
-            'role_id'=>'2',
+            'name' => 'Rafsan',
+            'email' => 'rafsan@gmail.com',
+            'Phone' => '01',
+            'gender' => 'male',
+            'date_of_birth' => '10/04/1986',
+            'password' => bcrypt('12'),
+            'role_id' => '2',
         ]);
-    
     }
 }

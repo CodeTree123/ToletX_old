@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Advertise;
 use Carbon\carbon;
+use Image;
 class AdvertiseController extends Controller
 {
     //
@@ -17,14 +18,16 @@ class AdvertiseController extends Controller
         'created_at'=>Carbon::now()
 
     ]);
+
       if($request->file('photo')){
        $file= $request->file('photo');
-       $filename= date('YmdHi').$file->getClientOriginalName();
-       $file-> move(public_path('uploads/advertise/'), $filename);
+       $filename= date('YmdHi') . 'photo' . '.' . $file->getClientOriginalExtension();
+       $file->move(public_path('uploads/advertise/'), $filename);
        $ad['photo']= $filename;
-            }
-      $ad->save();
 
+}
+      $ad->save();
+    //   Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
       return redirect()->route('index');
     }
 

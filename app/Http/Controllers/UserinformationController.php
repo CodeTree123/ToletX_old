@@ -76,31 +76,31 @@ class UserinformationController extends Controller
 
     public function loginWithOtp(Request $request)
     {
-        Log::info($request);
+        // Log::info($request);
 
-        $phoneinfo = Phoneotp::where('phone_number', $request->phone)->first();
+        // $phoneinfo = Phoneotp::where('phone_number', $request->phone)->first();
 
-        $time = Carbon::now()->diffInSeconds($phoneinfo->updated_at);
-        if ($time > 60) {
-            return redirect()->route('loginotp')->with('Failed', 'your time is up!! Enter your mobile number again');
-        }
-        if ($phoneinfo && $phoneinfo->otp == $request->otp) {
-            $phoneinfo->update([
-                'otp' => '',
-                'isverified' => 1
-            ]);
-            return redirect()->route('registration', ['phone' => $request->phone]);
-        }
-        return redirect()->back();
-        // $user  = User::where([['phone','=',request('phone')],['otp','=',request('otp')]])->first();
-        // if( $user){
-        //     Auth::login($user, true);
-        //     User::where('phone','=',$request->phone)->update(['otp' => null]);
-        //     return Redirect::HOME();
+        // $time = Carbon::now()->diffInSeconds($phoneinfo->updated_at);
+        // if ($time > 60) {
+        //     return redirect()->route('loginotp')->with('Failed', 'your time is up!! Enter your mobile number again');
         // }
-        // else{
-        //     return Redirect::back ();
+        // if ($phoneinfo && $phoneinfo->otp == $request->otp) {
+        //     $phoneinfo->update([
+        //         'otp' => '',
+        //         'isverified' => 1
+        //     ]);
+        //     return redirect()->route('registration', ['phone' => $request->phone]);
         // }
+        // return redirect()->back();
+        $user  = User::where([['phone','=',request('phone')],['otp','=',request('otp')]])->first();
+        if( $user){
+            Auth::login($user, true);
+            User::where('phone','=',$request->phone)->update(['otp' => null]);
+            return Redirect::HOME();
+        }
+        else{
+            return Redirect::back ();
+        }
 
     }
 
@@ -203,7 +203,8 @@ class UserinformationController extends Controller
     public function list_user()
     {
 
-        $users = User::where('id', auth()->id())->get();
+        $users = User::where('role_id',2)->get();
+
         return view('user.user_list', compact('users'));
     }
 

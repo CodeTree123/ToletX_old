@@ -29,7 +29,7 @@ use App\Models\Advertise;
 use Auth;
 class FrontendController extends Controller
 {
-    //
+
 
     function index(){
         $lists=Room::all();

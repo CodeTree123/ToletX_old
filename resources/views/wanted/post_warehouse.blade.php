@@ -88,6 +88,9 @@
                             <option value="cosmetic">cosmetic</option>
                             <option value="medicine">medicine</option>
                             <option value="camical">camical</option>
+                            <option value="machineries">Machineries</option>
+                            <option value="readymade ">Readymade Garments</option>
+                            <option value="camical">Ceramic</option>
                         </select>
                     </div>
                     <div class="col-4 mb-3">

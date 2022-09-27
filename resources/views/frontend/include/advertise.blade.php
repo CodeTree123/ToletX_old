@@ -34,7 +34,7 @@
           @endforeach
         </div>
         <div class="d-flex justify-content-center">
-        <button class="btn btn-primary rounded-pill " style="position:100%" onclick="location.href='{{route('get_add')}}'">Quick Ad</button>
+        <button class="btn btn-primary rounded-pill " style="position:100%" onclick="location.href='{{route('package')}}'">Quick Ad</button>
         </div>
       </section>
       <!-- Advertise Section End -->
