@@ -12,11 +12,11 @@
         <div class="row row1">
             <div class="col-md-12">
                 <div class="row  ">
-                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" onclick="location.href='{{route('community_hall')}}'">
+                    <a class="col-md-2 col-small mx-2 main-service text-center single_box" href="{{route('community_hall')}}">
                         <span class="icon-community_hall service_item"></span>
                         <br>
                         <span class="service_item_name"> Community Hall</span>
-                    </div>
+                    </a>
                 </div>
                 <div class="row ml-1 mr-4 ">
                     <div class="container container-fluid">
@@ -31,10 +31,6 @@
                                 <div class="col-lg-3 col-md-3  mt-2  top-from">
                                     <input type="date" class="form-control" id="check-out-date" placeholder="Add Dates" aria-label="Add Dates">
                                 </div>
-                                <!-- <div class="col-lg-3 col-md-3  mt-2 top-from">
-                                    <input type="number" class="form-control" id="guest-count" placeholder="Guests" aria-label="Guests">
-                                </div> -->
-
                                 </div>
                                 <!-- Checkbox filters -->
                                 <div class="my-4 ">
@@ -86,9 +82,9 @@
                                             <div class="sliderText"> Area Range  </div>
                                                 <div class="d-flex  ">
                                                     <input type="number" name="filter[floor_size]" min=100 max="9900000" oninput="validity.valid||(value='100');" id="min_price"
-                                                        class="price-range-field form-control me-2" placeholder="Min-price" />
+                                                        class="price-range-field form-control me-2" placeholder="Min-Size" />
                                                     <input type="number" name="filter[floor_size]" min=100 max="10000000" oninput="validity.valid||(value='1000000');" id="max_price"
-                                                        class="price-range-field form-control" placeholder="Max-price" />
+                                                        class="price-range-field form-control" placeholder="Max-Size" />
                                                 </div>
                                         </div>
                                     </div>

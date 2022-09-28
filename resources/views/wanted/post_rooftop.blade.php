@@ -73,15 +73,15 @@
                             @endforeach
                         </select>
                     </div>
-                    <div class="col-8 mb-3 ">
+                    <div class="col-4 mb-3 ">
                         <label for="Area_rented" class="form-label me-2 fw-bold">Roof Area</label>
-                        <input name="floor_area" type="text" class="form-control" id="Area_rented" placeholder="Enter Address">
+                        <input name="floor_area" type="text" class="form-control" id="Area_rented" placeholder="Enter Roof Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Month</label>
                         <input name="price" type="number" class="form-control" id="price_rented" placeholder="Enter Price">
                     </div>
-                    <div class="col-8 mb-3 ">
+                    <div class="col-4 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_rented" placeholder="Enter Address">
                     </div>
@@ -219,15 +219,15 @@
                             @endforeach
                         </select>
                     </div>
-                    <div class="col-8 mb-3 ">
+                    <div class="col-4 mb-3 ">
                         <label for="Area_wanted" class="form-label me-2 fw-bold">Roof Area</label>
-                        <input name="floor_area" type="text" class="form-control" id="Area_wanted" placeholder="Enter Address">
+                        <input name="floor_area" type="text" class="form-control" id="Area_wanted" placeholder="Enter Roof Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Month</label>
                         <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
                     </div>
-                    <div class="col-8 mb-3 ">
+                    <div class="col-4 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">
                     </div>

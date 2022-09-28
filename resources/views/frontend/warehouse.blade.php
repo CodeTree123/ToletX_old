@@ -11,11 +11,11 @@
         <div class="row row1">
             <div class="col-md-12">
                 <div class="row  ">
-                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" onclick="location.href='{{route('warehouse')}}'">
+                    <a class="col-md-2 col-small mx-2 main-service text-center single_box" href="{{route('warehouse')}}'">
                         <span class="icon-warehouse service_item"></span>
                         <br>
                         <span class="service_item_name"> Warehouse</span>
-                    </div>
+                    </a>
                 </div>
                 <div class="row ml-1 mr-4 ">
                     <div class="container container-fluid">

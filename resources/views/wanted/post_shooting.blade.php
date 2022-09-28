@@ -60,7 +60,7 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="title_rented" class="form-label me-2 fw-bold">Shooting Spot Name</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Warehouse Name">
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Shooting Spot Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -86,7 +86,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="floor_size_rented" class="form-label me-2 fw-bold">Spot Area</label>
-                        <input name="floor_area" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Floor Area">
+                        <input name="floor_area" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Spot Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="road_width_rented" class="form-label me-2 fw-bold">Road Width</label>
@@ -223,7 +223,7 @@
                 <div class="row">
                 <div class="col-4 mb-3 ">
                         <label for="title_rented" class="form-label me-2 fw-bold">Shooting Spot Name</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Warehouse Name">
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Shooting Spot Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -249,7 +249,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="floor_size_rented" class="form-label me-2 fw-bold">Spot Area</label>
-                        <input name="floor_area" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Floor Area">
+                        <input name="floor_area" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Spot Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="road_width_rented" class="form-label me-2 fw-bold">Road Width</label>

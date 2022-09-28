@@ -104,15 +104,6 @@
                         </select>
                     </div>
                     <div class="col-4 mb-3">
-                        <label for="road_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_rented" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
-                    </div>
-                    <div class="col-4 mb-3">
                         <label for="interior_rented" class="form-label me-2 fw-bold">Interior Condition</label>
                         <select id="interior_rented" class="form-select" name="interior_condition">
                             <option selected="">Choose...</option>
@@ -258,8 +249,8 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_wanted" class="form-label me-2 fw-bold">Office Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Warehouse Name">
+                        <label for="title_wanted" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -309,15 +300,6 @@
                             <option value="15">15+</option>
 
 
-                        </select>
-                    </div>
-                    <div class="col-4 mb-3">
-                        <label for="road_wanted" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_wanted" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
                         </select>
                     </div>
                     <div class="col-4 mb-3">

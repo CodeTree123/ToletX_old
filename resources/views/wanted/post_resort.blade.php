@@ -74,9 +74,9 @@
                         <label for="room_type_rented" class="form-label me-2 fw-bold">Room Type</label>
                         <select id="room_type_rented" class="form-select" name="room_type">
                             <option selected="">Choose...</option>
-                            <option value="Master bed">Master bed</option>
-                            <option value="Single bed">Single bed</option>
-                            <option value="Classic">Classic</option>
+                            <option value="Bungalow">Bungalow</option>
+                            <option value="coattage">Coattage</option>
+                            <option value="Villa">Villa</option>
                         </select>
                     </div>
                     <div class="col-4 mb-3 ">
@@ -87,15 +87,7 @@
                         <label for="s_charge_rented" class="form-label me-2 fw-bold">Service Charge</label>
                         <input name="s_charge" type="number" class="form-control" id="s_charge_rented" placeholder="Enter Service Charge">
                     </div>
-                    <div class=" col-4 mb-3">
-                        <label for="type_rented" class="form-label me-2 fw-bold">Room type</label>
-                        <select id="type_rented" class="form-select" name="room_type">
-                            <option selected="">Choose...</option>
-                            <option value="Master bed">Master bed</option>
-                            <option value="Single bed">Single bed</option>
-                            <option value="Classic">Classic</option>
-                        </select>
-                    </div>
+             
                     <div class="col-8 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_rented" placeholder="Enter Address">
@@ -258,9 +250,10 @@
                         <label for="room_type_wanted" class="form-label me-2 fw-bold">Room Type</label>
                         <select id="room_type_wanted" class="form-select" name="room_type">
                             <option selected="">Choose...</option>
-                            <option value="Master bed">Master bed</option>
-                            <option value="Single bed">Single bed</option>
-                            <option value="Classic">Classic</option>
+                            <option value="Bungalow">Bungalow</option>
+                            <option value="coattage">Coattage</option>
+                            <option value="Villa">Villa</option>
+
                         </select>
                     </div>
                     <div class="col-4 mb-3 ">
@@ -271,15 +264,7 @@
                         <label for="s_charge_wanted" class="form-label me-2 fw-bold">Service Charge</label>
                         <input name="s_charge" type="number" class="form-control" id="s_charge_wanted" placeholder="Enter Service Charge">
                     </div>
-                    <div class=" col-4 mb-3">
-                        <label for="type_wanted" class="form-label me-2 fw-bold">Room type</label>
-                        <select id="type_wanted" class="form-select" name="room_type">
-                            <option selected="">Choose...</option>
-                            <option value="Master bed">Master bed</option>
-                            <option value="Single bed">Single bed</option>
-                            <option value="Classic">Classic</option>
-                        </select>
-                    </div>
+              
                     <div class="col-8 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">

@@ -76,31 +76,31 @@ class UserinformationController extends Controller
 
     public function loginWithOtp(Request $request)
     {
-        // Log::info($request);
+        Log::info($request);
 
-        // $phoneinfo = Phoneotp::where('phone_number', $request->phone)->first();
+        $phoneinfo = Phoneotp::where('phone_number', $request->phone)->first();
 
-        // $time = Carbon::now()->diffInSeconds($phoneinfo->updated_at);
-        // if ($time > 60) {
-        //     return redirect()->route('loginotp')->with('Failed', 'your time is up!! Enter your mobile number again');
-        // }
-        // if ($phoneinfo && $phoneinfo->otp == $request->otp) {
-        //     $phoneinfo->update([
-        //         'otp' => '',
-        //         'isverified' => 1
-        //     ]);
+        $time = Carbon::now()->diffInSeconds($phoneinfo->updated_at);
+        if ($time > 60) {
+            return redirect()->route('loginotp')->with('Failed', 'your time is up!! Enter your mobile number again');
+        }
+        if ($phoneinfo && $phoneinfo->otp == $request->otp) {
+            $phoneinfo->update([
+                'otp' => '',
+                'isverified' => 1
+            ]);
+            return redirect()->route('registration', ['phone' => $request->phone]);
+        }
+        return redirect()->back();
+        // $user  = User::where([['phone','=',request('phone')],['otp','=',request('otp')]])->first();
+        // if( $user){
+        //     Auth::login($user, true);
+        //     User::where('phone','=',$request->phone)->update(['otp' => null]);
         //     return redirect()->route('registration', ['phone' => $request->phone]);
         // }
-        // return redirect()->back();
-        $user  = User::where([['phone','=',request('phone')],['otp','=',request('otp')]])->first();
-        if( $user){
-            Auth::login($user, true);
-            User::where('phone','=',$request->phone)->update(['otp' => null]);
-            return Redirect::HOME();
-        }
-        else{
-            return Redirect::back ();
-        }
+        // else{
+        //     return redirect()->back();
+        // }
 
     }
 
@@ -192,7 +192,7 @@ class UserinformationController extends Controller
 
             if (Auth::attempt(['phone' => request('phone'), 'password' => request('password')])) {
                 // return Redirect::index();
-                return redirect()->route('profile')->with('success', 'Please Complete your profile information.');
+                return redirect()->route('index')->with('success', 'Please Complete your profile information.');
             } else {
                 return Redirect::back();
             }
@@ -346,5 +346,24 @@ class UserinformationController extends Controller
         //         ]);
         //       }
         return back()->with('success', 'User have successfully registered.');
+    }
+    public function admin_verify($id){
+        $getStatus = User::find($id);
+        if($getStatus->admin_verify == 1){
+            $status = 0;
+        }else{
+            $status = 1;
+        }
+        if($status == 1){
+            User::where('id','=',$id)->update(['admin_verify'=>$status]);
+        }else{
+            User::where('id','=',$id)->update(['admin_verify'=>$status]);
+        }
+        return back();
+    }
+    public function delete_user($id)
+    {
+        User::find($id)->delete();
+        return redirect()->back()->with('massage','User deleted Successfully');
     }
 }

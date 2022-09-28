@@ -192,7 +192,7 @@
                                     <br>
                                     <span class="service_item_name"> Shop</span>
                                 </a>
-                                <a class="  col-lg-3 col-md-3 col-sm-3 col-3 col-small p-0 me-2 mb-2    text-center" href="{{route('community_hall')}}">
+                                <a class="  col-lg-3 col-md-3 col-sm-3 col-3 col-small p-0 me-2 mb-2    text-center" href="{{route('post_community')}}">
                                     <span class="icon-community_hall service_item"></span>
                                     <br>
                                     <span class="service_item_name"> Community Hall</span>

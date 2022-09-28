@@ -283,6 +283,10 @@
                         <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3 ">
+                        <label for="s_charge_wanted" class="form-label me-2 fw-bold">Service Charge</label>
+                        <input name="s_charge" type="number" class="form-control" id="s_charge_wanted" placeholder="Enter Service Charge">
+                    </div>
+                    <div class="col-4 mb-3 ">
                         <label for="room_size_wanted" class="form-label me-2 fw-bold">Room Size</label>
                         <input name="room_size" type="text" class="form-control" id="room_size_wanted" placeholder="Enter Room Size">
                     </div>

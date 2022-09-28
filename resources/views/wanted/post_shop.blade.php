@@ -58,8 +58,8 @@
                 <input class="form-control" type="hidden" id="post_rent" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_rented" class="form-label me-2 fw-bold">Office Name For Rent</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Warehouse Name">
+                        <label for="title_rented" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_rented" class="form-label me-2 fw-bold">Shop Area</label>
-                        <input name="floor_area" type="number" class="form-control" id="area_rented" placeholder="Enter Price">
+                        <input name="floor_area" type="number" class="form-control" id="area_rented" placeholder="Enter Shop Area">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="floor_rented" class="form-label me-2 fw-bold">Floor Level</label>
@@ -107,24 +107,11 @@
 
                         </select>
                     </div>
-                    <div class="col-4 mb-3">
-                        <label for="road_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_rented" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
-                    </div>
+                 
                     <div class="col-8 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_rented" placeholder="Enter Address">
                     </div>
-                    <div class="col-4 mb-3 ">
-                        <label for="floor_size_rented" class="form-label me-2 fw-bold">Shop Area</label>
-                        <input name="floor_size" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Floor Area">
-                    </div>
-
                     <div class="col-4 mb-3 ">
                         <label for="road_width_rented" class="form-label me-2 fw-bold">Road Width</label>
                         <input name="road_width" type="number" class="form-control" id="road_width_rented" placeholder="Enter Road Width">
@@ -253,8 +240,8 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_wanted" class="form-label me-2 fw-bold">Office Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Warehouse Name">
+                        <label for="title_wanted" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -276,7 +263,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_wanted" class="form-label me-2 fw-bold">Shop Area</label>
-                        <input name="floor_area" type="number" class="form-control" id="area_wanted" placeholder="Enter Price">
+                        <input name="floor_area" type="number" class="form-control" id="area_wanted" placeholder="Enter Shop Area">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="floor_wanted" class="form-label me-2 fw-bold">Floor Level</label>
@@ -298,19 +285,9 @@
                             <option value="14">14</option>
                             <option value="15">15</option>
                             <option value="15">15+</option>
-
-
                         </select>
                     </div>
-                    <div class="col-4 mb-3">
-                        <label for="road_wanted" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_wanted" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
-                    </div>
+   
                     <div class="col-8 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">

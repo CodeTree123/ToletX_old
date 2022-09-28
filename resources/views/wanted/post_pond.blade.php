@@ -58,8 +58,8 @@
                 <input class="form-control" type="hidden" id="post_rent" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_rented" class="form-label me-2 fw-bold">Pond Name</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Pond Name">
+                        <label for="title_rented" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -81,20 +81,15 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_rented" class="form-label me-2 fw-bold">Pond area</label>
-                        <input name="pond_area" type="number" class="form-control" id="area_rented" placeholder="Enter Price">
+                        <input name="pond_area" type="number" class="form-control" id="area_rented" placeholder="Enter Ponds Size">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="height_rented" class="form-label me-2 fw-bold">Water Level</label>
-                        <input name="water_level" type="number" class="form-control" id="height_rented" placeholder="Enter Price">
+                        <input name="water_level" type="number" class="form-control" id="height_rented" placeholder="Enter Water Level">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_rented" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_rented" placeholder="Enter Road Width">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
@@ -173,8 +168,8 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                 <div class="col-4 mb-3 ">
-                        <label for="title_wanted" class="form-label me-2 fw-bold">Pond Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Pond Name">
+                        <label for="title_wanted" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -204,12 +199,7 @@
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_wanted" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_wanted" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_wanted" placeholder="Enter Road Width">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>

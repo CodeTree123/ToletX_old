@@ -59,8 +59,8 @@
                 <input class="form-control" type="hidden" id="post_rent" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_rented" class="form-label me-2 fw-bold">Warehouse Name For Rent</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Warehouse Name">
+                        <label for="title_rented" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -110,6 +110,9 @@
                             <option value="11">11</option>
                             <option value="12">12</option>
                             <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="15+">15+</option>
                         </select>
                     </div>
                     <div class="col-4 mb-3">
@@ -259,8 +262,8 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_wanted" class="form-label me-2 fw-bold">Warehouse Name For Rent</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Warehouse Name">
+                        <label for="title_wanted" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -307,6 +310,9 @@
                             <option value="11">11</option>
                             <option value="12">12</option>
                             <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="15+">15+</option>
                         </select>
                     </div>
                     <div class="col-4 mb-3">

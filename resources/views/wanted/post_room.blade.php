@@ -60,7 +60,7 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="room_name_rented" class="form-label me-2 fw-bold">Post Title</label>
-                        <input name="title" type="text" class="form-control" id="room_name_rented" placeholder="Enter name">
+                        <input name="title" type="text" class="form-control" id="room_name_rented" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -257,7 +257,7 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="room_name_wanted" class="form-label me-2 fw-bold">Post Title</label>
-                        <input name="title" type="text" class="form-control" id="room_name_wanted" placeholder="Enter Hostel name">
+                        <input name="title" type="text" class="form-control" id="room_name_wanted" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>

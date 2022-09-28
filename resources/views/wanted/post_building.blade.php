@@ -89,7 +89,7 @@
 
                     <div class="col-4 mb-3 ">
                         <label for="building_size_rented" class="form-label me-2 fw-bold">Land Area</label>
-                        <input name="building_size" type="text" class="form-control" id="building_size_rented" placeholder="Enter Room Size">
+                        <input name="building_size" type="text" class="form-control" id="building_size_rented" placeholder="Enter Land Area">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="floor_rented" class="form-label me-2 fw-bold">Building Type</label>

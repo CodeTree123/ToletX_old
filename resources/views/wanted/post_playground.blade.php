@@ -59,7 +59,7 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="title_wanted" class="form-label me-2 fw-bold">Camp Site Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Factory Name">
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Camp Site Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_wanted" class="form-label me-2 fw-bold">Camp area</label>
-                        <input name="area" type="number" class="form-control" id="area_wanted" placeholder="Enter Price">
+                        <input name="area" type="number" class="form-control" id="area_wanted" placeholder="Enter Camp area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
@@ -201,7 +201,7 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="title_wanted" class="form-label me-2 fw-bold">Camp Site Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Factory Name">
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Camp Site Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -223,7 +223,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_wanted" class="form-label me-2 fw-bold">Camp area</label>
-                        <input name="area" type="number" class="form-control" id="area_wanted" placeholder="Enter Price">
+                        <input name="area" type="number" class="form-control" id="area_wanted" placeholder="Enter Camp area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>

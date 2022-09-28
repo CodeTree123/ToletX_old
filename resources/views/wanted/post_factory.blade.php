@@ -81,11 +81,11 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_rented" class="form-label me-2 fw-bold">Floor area</label>
-                        <input name="floor_size" type="number" class="form-control" id="area_rented" placeholder="Enter Price">
+                        <input name="floor_size" type="number" class="form-control" id="area_rented" placeholder="Enter Floor area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="height_rented" class="form-label me-2 fw-bold">Floor Hieght</label>
-                        <input name="road_width" type="number" class="form-control" id="height_rented" placeholder="Enter Price">
+                        <input name="road_width" type="number" class="form-control" id="height_rented" placeholder="Enter Floor Hieght">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="floor_rented" class="form-label me-2 fw-bold">Floor Level</label>
@@ -113,12 +113,7 @@
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_rented" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_rented" placeholder="Enter Road Width">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="s_charge_rented" class="form-label me-2 fw-bold">Service Charge</label>
@@ -287,11 +282,11 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_wanted" class="form-label me-2 fw-bold">Floor area</label>
-                        <input name="floor_size" type="number" class="form-control" id="area_wanted" placeholder="Enter Price">
+                        <input name="floor_size" type="number" class="form-control" id="area_wanted" placeholder="Enter Floor area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="height_wanted" class="form-label me-2 fw-bold">Floor Hieght</label>
-                        <input name="road_width" type="number" class="form-control" id="height_wanted" placeholder="Enter Price">
+                        <input name="road_width" type="number" class="form-control" id="height_wanted" placeholder="Enter Floor Hieght">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="floor_wanted" class="form-label me-2 fw-bold">Floor Level</label>
@@ -317,12 +312,7 @@
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_wanted" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_wanted" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_wanted" placeholder="Enter Road Width">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="s_charge_wanted" class="form-label me-2 fw-bold">Service Charge</label>
@@ -388,7 +378,7 @@
                                 </label>
                             </div>
                             
-                            <div class="form-check ms-5 mb-2">
+                            <div class="col-2 form-check mb-2">
                             <input class="form-check-input" type="checkbox" id="drain_wanted" name="drainage_system">
                             <label class="form-check-label" for="drain_wanted">
                                 Drainage System

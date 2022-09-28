@@ -2415,4 +2415,7 @@ function hostel_search(Request $request){
                   }
 //end resort
 
+
+
+
 }

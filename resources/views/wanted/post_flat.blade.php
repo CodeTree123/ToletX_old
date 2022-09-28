@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Dining_rented" class="form-label me-2 fw-bold">No. of Dining rooms</label>
-                        <input name="dining" type="number" class="form-control" id="Dining_rented" placeholder="Enter Drawing rooms">
+                        <input name="dining" type="number" class="form-control" id="Dining_rented" placeholder="Enter Dining rooms">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Kitchen_rented" class="form-label me-2 fw-bold">No. of Kitchen rooms</label>
@@ -114,11 +114,11 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="flat_varanda_rented" class="form-label me-2 fw-bold">No. of Toilets</label>
-                        <input name="attached_toilet" type="number" class="form-control" id="flat_varanda_rented" placeholder="Enter Room Size">
+                        <input name="attached_toilet" type="number" class="form-control" id="flat_varanda_rented" placeholder="Enter No. of Toilets">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="flat_size_rented" class="form-label me-2 fw-bold">Flat Size</label>
-                        <input name="flat_size" type="number" class="form-control" id="flat_size_rented" placeholder="Enter Room Size">
+                        <input name="flat_size" type="number" class="form-control" id="flat_size_rented" placeholder="Enter Flat Size">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
@@ -301,7 +301,7 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="bedroom_wanted" class="form-label me-2 fw-bold">No. of Bedrooms</label>
-                        <input name="bedrooms" type="number" class="form-control" id="bedroom_wanted" placeholder="Enter Room Size">
+                        <input name="bedrooms" type="number" class="form-control" id="bedroom_wanted" placeholder="Enter No. of Bedrooms">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Drawing_wanted" class="form-label me-2 fw-bold">No. of Drawing rooms</label>
@@ -321,11 +321,11 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="flat_varanda_wanted" class="form-label me-2 fw-bold">No. of Toilets</label>
-                        <input name="attached_toilet" type="number" class="form-control" id="flat_varanda_wanted" placeholder="Enter Room Size">
+                        <input name="attached_toilet" type="number" class="form-control" id="flat_varanda_wanted" placeholder="Enter No. of Toilets">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="flat_size_wanted" class="form-label me-2 fw-bold">Flat Size</label>
-                        <input name="flat_size" type="number" class="form-control" id="flat_size_wanted" placeholder="Enter Room Size">
+                        <input name="flat_size" type="number" class="form-control" id="flat_size_wanted" placeholder="Enter Flat Size">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>

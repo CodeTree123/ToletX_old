@@ -49,6 +49,8 @@
     Route::get('/terms', [UserinformationController::class, 'terms'])->name('terms');
     Route::get('/check', [UserinformationController::class, 'check'])->name('check');
     Route::get('/verify/otp', [UserinformationController::class, 'verifyOtp'])->name('verify.otp');
+    Route::get('admin/veriy/{id}',[UserinformationController::class,'admin_verify'])->name('admin_verify');
+    Route::get('delete/user/{id}',[UserinformationController::class,'delete_user'])->name('delete.user');
     //user Rented and wanted post
 
     Route::get('/post/ghat', [App\Http\Controllers\UserWantedController::class, 'post_ghat'])->name('post_ghat'); //modify

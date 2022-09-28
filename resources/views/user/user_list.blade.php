@@ -39,6 +39,7 @@
                                 <th scope="col">Mother name</th>
                                 <th scope="col">Gender</th>
                                 <th scope="col">Profile Pic</th>
+                                <th scope="col">verify</th>
                                 <th scope="col">Action</th>
 
 
@@ -61,7 +62,14 @@
                                     <img  style="width: 100px;" src="{{ asset('uploads/registers/'.$list->photo ) }}" alt="image">
                                 </td>
                                 <td>
-                                    <a href="{{route('user_edit',$list->id)}}" class=" btn-sm btn-primary">Edit</a>
+                                @if($list->admin_verify == "1")
+                                    <a class="btn btn-sm btn-primary" href="{{route('admin_verify',[$list->id])}}" role="button">Approved</a>
+                                    @else
+                                    <a class="btn btn-sm btn-primary" href="{{route('admin_verify',[$list->id])}}" role="button">pending</a>
+                                @endif
+                                </td>
+                                <td>
+                                    <a href="{{route('delete.user',$list->id)}}" class=" btn-sm btn-primary">Delete</a>
                                 </td>
                             </tr>
                             @endforeach

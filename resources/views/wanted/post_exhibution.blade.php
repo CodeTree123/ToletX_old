@@ -13,7 +13,6 @@
                     </ol>
                 </nav>
             </div>
-
         </div>
     </div>
     <!-- Default Basic Forms Start -->
@@ -49,7 +48,6 @@
                 @csrf
                 <div class="col-md-6">
                     <input id="user_id" type="hidden" class="form-control @error('user_id') is-invalid @enderror" name="user_id" value="{{ Auth::user()->id }}" required autocomplete="user_id" autofocus>
-
                     @error('user_id')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
@@ -77,7 +75,7 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Day</label>
                         <input name="price" type="number" class="form-control" id="price_rented" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3 ">
@@ -117,20 +115,15 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Hall_rented" class="form-label me-2 fw-bold">Exhibition Hall Area</label>
-                        <input name="room_size" type="text" class="form-control" id="Hall_rented" placeholder="Enter Floor Area">
+                        <input name="room_size" type="text" class="form-control" id="Hall_rented" placeholder="Enter Exhibition Hall Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="floor_size_rented" class="form-label me-2 fw-bold">Exhibition Hall Height</label>
-                        <input name="room_type" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Floor Area">
+                        <input name="room_type" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Exhibition Hall Height">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_rented" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_rented" placeholder="Enter Road Width">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
@@ -260,7 +253,7 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Day</label>
                         <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3">
@@ -296,20 +289,15 @@
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Hall_wanted" class="form-label me-2 fw-bold">Exhibition Hall Area</label>
-                        <input name="room_size" type="text" class="form-control" id="Hall_wanted" placeholder="Enter Floor Area">
+                        <input name="room_size" type="text" class="form-control" id="Hall_wanted" placeholder="Enter Exhibition Hall Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="floor_size_wanted" class="form-label me-2 fw-bold">Exhibition Hall Height</label>
-                        <input name="room_type" type="text" class="form-control" id="floor_size_wanted" placeholder="Enter Floor Area">
+                        <input name="room_type" type="text" class="form-control" id="floor_size_wanted" placeholder="Enter Exhibition Hall Height">
                     </div>
                     <div class="col-4 mb-3">
                         <label for="road_wanted" class="form-label me-2 fw-bold">Road Width</label>
-                        <select id="road_wanted" class="form-select" name="road_width">
-                            <option value="">Choose...</option>
-                            <option value="8fit">8fit</option>
-                            <option value="12fit">12fit</option>
-                            <option value="16fit">16fit</option>
-                        </select>
+                        <input name="road_width" type="number" class="form-control" id="road_wanted" placeholder="Enter Road Width">
                     </div>
                     <div class="col-8 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>

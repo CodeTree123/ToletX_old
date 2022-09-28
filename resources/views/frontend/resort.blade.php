@@ -10,7 +10,7 @@
         <div class="row row1">
             <div class="col-md-12">
                 <div class="row  ">
-                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" onclick="location.href='{{route('resort')}}'">
+                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" href="{{route('resort')}}">
                         <span class="icon-resort service_item"></span>
                         <br>
                         <span class="service_item_name"> Resort</span>

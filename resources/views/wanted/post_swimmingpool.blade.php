@@ -59,8 +59,8 @@
 
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="Swmming_Pool_rented" class="form-label me-2 fw-bold">Swmming Pool Name</label>
-                        <input name="title" type="text" class="form-control" id="Swmming_Pool_rented" placeholder="Enter Swmming Pool name">
+                        <label for="Swmming_Pool_rented" class="form-label me-2 fw-bold">Post Title</label>
+                        <input name="title" type="text" class="form-control" id="Swmming_Pool_rented" placeholder="Enter Post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -211,8 +211,8 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="Swimming_Pool_wanted" class="form-label me-2 fw-bold">Swimming Pool Name</label>
-                        <input name="title" type="text" class="form-control" id="Swimming_Pool_wanted" placeholder="Enter Swimming Pool name">
+                        <label for="Swimming_Pool_wanted" class="form-label me-2 fw-bold">post Title</label>
+                        <input name="title" type="text" class="form-control" id="Swimming_Pool_wanted" placeholder="Enter post Title">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>

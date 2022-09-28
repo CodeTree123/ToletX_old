@@ -12,7 +12,6 @@
                     </ol>
                 </nav>
             </div>
-
         </div>
     </div>
     <!-- Default Basic Forms Start -->
@@ -58,8 +57,8 @@
                 <input class="form-control" type="hidden" id="post_rent" name="post_type">
                 <div class="row">
                     <div class="col-4 mb-3 ">
-                        <label for="title_rented" class="form-label me-2 fw-bold">Picnic Spot Name For Rent</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Warehouse Name">
+                        <label for="title_rented" class="form-label me-2 fw-bold">Picnic Spot Name </label>
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Picnic Spot Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
@@ -76,12 +75,12 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Day</label>
                         <input name="price" type="number" class="form-control" id="price_rented" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_rented" class="form-label me-2 fw-bold">Land Area</label>
-                        <input name="land_area" type="number" class="form-control" id="area_rented" placeholder="Enter Price">
+                        <input name="land_area" type="number" class="form-control" id="area_rented" placeholder="Enter Land Area">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
@@ -218,7 +217,7 @@
                 <div class="row">
                 <div class="col-4 mb-3 ">
                         <label for="title_wanted" class="form-label me-2 fw-bold">Picnic Spot Name For Rent</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Warehouse Name">
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Picnic Spot Name">
                     </div>
                     <div class=" col-4 mb-3">
                         <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
@@ -235,14 +234,14 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Day</label>
                         <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="area_wanted" class="form-label me-2 fw-bold">Land Area</label>
-                        <input name="land_area" type="number" class="form-control" id="area_wanted" placeholder="Enter Price">
+                        <input name="land_area" type="number" class="form-control" id="area_wanted" placeholder="Enter Land Area">
                     </div>
-                    <div class="col-8 mb-3 ">
+                    <div class="col-4 mb-3 ">
                         <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
                         <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">
                     </div>

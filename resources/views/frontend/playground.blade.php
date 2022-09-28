@@ -11,7 +11,7 @@
         <div class="row row1">
             <div class="col-md-12">
                 <div class="row  " >
-                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" onclick="location.href='{{route('playground')}}'">
+                    <div class="col-md-2 col-small mx-2 main-service text-center single_box" href="{{route('playground')}}">
                         <span class="icon-camping service_item"></span>
                         <br>
                         <span class="service_item_name"> Camp Site</span>

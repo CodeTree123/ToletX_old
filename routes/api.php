@@ -118,3 +118,5 @@ Route::get('/exhibution',[ApiController::class, 'createapi_exhibution'])->name('
 Route::get('/land',[ApiController::class, 'createapi_land'])->name('createapi_land');
 Route::get('/office',[ApiController::class, 'createapi_office'])->name('createapi_office');
 Route::get('/resort',[ApiController::class, 'createapi_resort'])->name('createapi_resort');
+Route::get('/user/list',[ApiController::class, 'user_list'])->name('list.user');
+
