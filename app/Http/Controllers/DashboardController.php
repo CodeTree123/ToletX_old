@@ -105,56 +105,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo1'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo2'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo3'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo4'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo5'] = $filename;
         }
         $ghat->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/'), $filename);
+            $file->move(public_path('public/uploads/ghats/'), $filename);
             $ghat['photo6'] = $filename;
         }
         $ghat->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ghats/videos'), $filename);
+            $file->move(public_path('public/uploads/ghats/videos'), $filename);
             $ghat['video'] = $filename;
         }
         $ghat->save();
@@ -223,56 +223,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo1'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo2'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo3'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo4'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo5'] = $filename;
         }
         $picnic->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/'), $filename);
+            $file->move(public_path('public/uploads/picnics/'), $filename);
             $picnic['photo6'] = $filename;
         }
         $picnic->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/picnics/videos'), $filename);
+            $file->move(public_path('public/uploads/picnics/videos'), $filename);
             $picnic['video'] = $filename;
         }
         $picnic->save();
@@ -352,56 +352,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo'] = $filename;
         }
         $building->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo1'] = $filename;
         }
         $building->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo2'] = $filename;
         }
         $building->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo3'] = $filename;
         }
         $building->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo4'] = $filename;
         }
         $building->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo5'] = $filename;
         }
         $building->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/'), $filename);
+            $file->move(public_path('public/uploads/buildings/'), $filename);
             $building['photo6'] = $filename;
         }
         $building->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/buildings/videos'), $filename);
+            $file->move(public_path('public/uploads/buildings/videos'), $filename);
             $building['video'] = $filename;
         }
         $building->save();
@@ -469,13 +469,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
 
@@ -484,13 +484,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
 
@@ -499,76 +499,71 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/buildings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/buildings/" . $photoName), 100);
+                unlink(base_path("public/uploads/buildings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/buildings/" . $photoName), 100);
             }
         }
 
         return back()->with('success', 'Building information have been successfully Updated.');
     }
 
-    function building_edit($id)
-    {
-        $list = Building::findOrFail($id);
-        return view('Dashboard.building.single_building_list', compact('list'));
-    }
     //end building
     function post_hotel_rented(Request $request)
     {
@@ -608,56 +603,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo1'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo2'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo3'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo4'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo5'] = $filename;
         }
         $hotel->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/'), $filename);
+            $file->move(public_path('public/uploads/hotels/'), $filename);
             $hotel['photo6'] = $filename;
         }
         $hotel->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hotels/videos'), $filename);
+            $file->move(public_path('public/uploads/hotels/videos'), $filename);
             $hotel['video'] = $filename;
         }
         $hotel->save();
@@ -702,11 +697,6 @@ class DashboardController extends Controller
         return view('Dashboard.hotel.list_hotel', compact('lists', 'trashed_lists'));
     }
 
-    function hotel_edit($id)
-    {
-        $list = Hotel::findOrFail($id);
-        return view('Dashboard.hotel.single_hotel_list', compact('list'));
-    }
 
     function hotel_update(Request $request)
     {
@@ -737,13 +727,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
 
@@ -752,13 +742,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
 
@@ -767,65 +757,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Hotel::findOrFail($request->id)) {
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
                 Hotel::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hotels/" . $photoName));
-                Image::make($photo)->resize(1000, 1000)->save(base_path("uploads/hotels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hotels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/hotels/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Hotel information have been successfully Updated.');
@@ -855,11 +845,6 @@ class DashboardController extends Controller
         return view('Dashboard.room.list_room', compact('lists', 'trashed_lists'));
     }
 
-    function room_edit($id)
-    {
-        $list = Room::findOrFail($id);
-        return view('Dashboard.room.single_room_list', compact('list'));
-    }
 
     function room_update(Request $request)
     {
@@ -869,26 +854,24 @@ class DashboardController extends Controller
             'post_type' => $request->post_type,
             'title' => $request->title,
             'date' => $request->date,
-            's_charge' => $request->s_charge,
-            'address' => $request->address,
-            'room_size' => $request->room_size,
-            'attached_toilet' => $request->attached_toilet,
+            'phone' => $request->phone,
             'description' => $request->description,
-            'attached_varanda' => $request->attached_varanda,
-            'hot_water' => $request->hot_water,
-            'laundry' => $request->laundry,
-            'ac' => $request->ac,
-            'cable_tv' => $request->cable_tv,
-            'wifi' => $request->wifi,
-            'lift' => $request->lift,
-            'furnished' => $request->furnished,
-            'parking' => $request->parking,
-            'common_toilet' => $request->common_toilet,
-            'common_varanda' => $request->common_varanda,
-            'gas' => $request->gas,
-            'water' => $request->water,
-            'electricity' => $request->electricity,
+            'address' => $request->address,
             'price' => $request->price,
+            's_charge' => $request->s_charge,
+            'room_size' => $request->room_size,
+            'furnished'=> $request->furnished,
+            'electricity'=> $request->electricity,
+            'gas'=> $request->gas,
+            'water'=> $request->water,
+            'attached_toilet'=> $request->attached_toilet,
+            'hot_water'=> $request->hot_water,
+            'generator'=>$request->generator,
+            'ac'=> $request->ac,
+            'wifi'=> $request->wifi,
+            'cable_tv'=> $request->cable_tv,
+            'lift'=> $request->lift,
+            'parking'=> $request->parking,
             'video' => $request->video,
 
 
@@ -899,13 +882,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(1000, 1000)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
 
@@ -914,13 +897,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
 
@@ -929,65 +912,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Room::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
                 Room::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooms/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooms/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooms/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooms/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Room information have been successfully Updated.');
@@ -1062,56 +1045,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo'] = $filename;
         }
         $flat->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo1'] = $filename;
         }
         $flat->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo2'] = $filename;
         }
         $flat->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo3'] = $filename;
         }
         $flat->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo4'] = $filename;
         }
         $flat->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo5'] = $filename;
         }
         $flat->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/'), $filename);
+            $file->move(public_path('public/uploads/flats/'), $filename);
             $flat['photo6'] = $filename;
         }
         $flat->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/flats/videos'), $filename);
+            $file->move(public_path('public/uploads/flats/videos'), $filename);
             $flat['video'] = $filename;
         }
         $flat->save();
@@ -1166,11 +1149,7 @@ class DashboardController extends Controller
         return view('Dashboard.flat.list_flat', compact('lists', 'trashed_lists'));
     }
 
-    function flat_edit($id)
-    {
-        $list = Flat::findOrFail($id);
-        return view('Dashboard.flat.single_flat_list', compact('list'));
-    }
+
 
     function flat_update(Request $request)
     {
@@ -1205,13 +1184,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
 
@@ -1220,78 +1199,78 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo2')) {
             $photo = $request->file('photo2');
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Flat::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
                 Flat::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/flats/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/flats/" . $photoName), 100);
+                unlink(base_path("public/uploads/flats/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/flats/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Flat information have been successfully Updated.');
@@ -1342,56 +1321,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo'] = $filename;
         }
         $parking->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo1'] = $filename;
         }
         $parking->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo2'] = $filename;
         }
         $parking->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo3'] = $filename;
         }
         $parking->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo4'] = $filename;
         }
         $parking->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo5'] = $filename;
         }
         $parking->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/'), $filename);
+            $file->move(public_path('public/uploads/garages/'), $filename);
             $parking['photo6'] = $filename;
         }
         $parking->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/garages/videos'), $filename);
+            $file->move(public_path('public/uploads/garages/videos'), $filename);
             $parking['video'] = $filename;
         }
         $parking->save();
@@ -1437,56 +1416,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo'] = $filename;
         }
         $parking->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo1'] = $filename;
         }
         $parking->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo2'] = $filename;
         }
         $parking->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo3'] = $filename;
         }
         $parking->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo4'] = $filename;
         }
         $parking->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo5'] = $filename;
         }
         $parking->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/'), $filename);
+            $file->move(public_path('public/uploads/rooms/'), $filename);
             $parking['photo6'] = $filename;
         }
         $parking->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooms/videos'), $filename);
+            $file->move(public_path('public/uploads/rooms/videos'), $filename);
             $parking['video'] = $filename;
         }
         $parking->save();
@@ -1522,7 +1501,7 @@ class DashboardController extends Controller
             'active' => 1,
             'created_at'   => Carbon::now()
         ]);
-        
+
         return back()->with('success', 'Room information have been successfully Added.');
     }
 
@@ -1555,11 +1534,6 @@ class DashboardController extends Controller
         return view('Dashboard.parking_spot.list_parking', compact('lists', 'trashed_lists'));
     }
 
-    function parking_spot_edit($id)
-    {
-        $list = Parking_Spot::findOrFail($id);
-        return view('Dashboard.parking_spot.single_list_parking', compact('list'));
-    }
 
     function parking_spot_update(Request $request)
     {
@@ -1587,13 +1561,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
 
@@ -1602,13 +1576,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
 
@@ -1617,65 +1591,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Parking_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
                 Parking_Spot::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/parkings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/parkings/" . $photoName), 100);
+                unlink(base_path("public/uploads/parkings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/parkings/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Parking Spot information have been successfully Updated.');
@@ -1755,57 +1729,57 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            //Image::make($file)->resize(452,510)->save(base_path('uploads/hostels/'.$filename),100);
-            $file->move(public_path('uploads/hostels/'), $filename);
+            //Image::make($file)->resize(452,510)->save(base_path('public/uploads/hostels/'.$filename),100);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo1'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo2'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo3'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo4'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo5'] = $filename;
         }
         $hostel->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/'), $filename);
+            $file->move(public_path('public/uploads/hostels/'), $filename);
             $hostel['photo6'] = $filename;
         }
         $hostel->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/hostels/videos'), $filename);
+            $file->move(public_path('public/uploads/hostels/videos'), $filename);
             $hostel['video'] = $filename;
         }
         $hostel->save();
@@ -1846,11 +1820,6 @@ class DashboardController extends Controller
         return back()->with('success', 'Hostel Wanted post successfully Added.');
     }
 
-    function hostel_edit($id)
-    {
-        $list = Hostel::findOrFail($id);
-        return view('Dashboard.hostel.single_list_hostel', compact('list'));
-    }
 
     function hostel_update(Request $request)
     {
@@ -1886,13 +1855,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
 
@@ -1901,13 +1870,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
 
@@ -1916,65 +1885,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Hostel::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
                 Hostel::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/hostels/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/hostels/" . $photoName), 100);
+                unlink(base_path("public/uploads/hostels/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/hostels/" . $photoName), 100);
             }
         }
         return back()->with('success', 'hostel information have been successfully Updated.');
@@ -2023,7 +1992,7 @@ class DashboardController extends Controller
             'electricity' => $request->electricity,
             'gas' => $request->gas,
             'water' => $request->water,
-            'price' => $request->price, 
+            'price' => $request->price,
             'post_type' => $request->post_type,
             'title' => $request->title,
             'date' => $request->date,
@@ -2055,56 +2024,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo'] = $filename;
         }
         $office->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo1'] = $filename;
         }
         $office->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo2'] = $filename;
         }
         $office->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo3'] = $filename;
         }
         $office->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo4'] = $filename;
         }
         $office->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo5'] = $filename;
         }
         $office->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/'), $filename);
+            $file->move(public_path('public/uploads/offices/'), $filename);
             $office['photo6'] = $filename;
         }
         $office->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/offices/videos'), $filename);
+            $file->move(public_path('public/uploads/offices/videos'), $filename);
             $office['video'] = $filename;
         }
         $office->save();
@@ -2150,11 +2119,7 @@ class DashboardController extends Controller
         return view('Dashboard.office.list_office', compact('lists', 'trashed_lists'));
     }
 
-    function office_edit($id)
-    {
-        $list = Office::findOrFail($id);
-        return view('Dashboard.office.single_office_list', compact('list'));
-    }
+
 
     function office_update(Request $request)
     {
@@ -2186,13 +2151,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
 
@@ -2201,13 +2166,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
 
@@ -2216,65 +2181,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Office::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
                 Office::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/offices/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/offices/" . $photoName), 100);
+                unlink(base_path("public/uploads/offices/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/offices/" . $photoName), 100);
             }
         }
         return back()->with('success', 'office information have been successfully Updated.');
@@ -2338,56 +2303,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo'] = $filename;
         }
         $land->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo1'] = $filename;
         }
         $land->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo2'] = $filename;
         }
         $land->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo3'] = $filename;
         }
         $land->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo4'] = $filename;
         }
         $land->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo5'] = $filename;
         }
         $land->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/'), $filename);
+            $file->move(public_path('public/uploads/lands/'), $filename);
             $land['photo6'] = $filename;
         }
         $land->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/lands/videos'), $filename);
+            $file->move(public_path('public/uploads/lands/videos'), $filename);
             $land['video'] = $filename;
         }
         $land->save();
@@ -2429,11 +2394,7 @@ class DashboardController extends Controller
         return view('Dashboard.land.list_land', compact('lists', 'trashed_lists'));
     }
 
-    function land_edit($id)
-    {
-        $list = Land::findOrFail($id);
-        return view('Dashboard.land.single_land_list', compact('list'));
-    }
+
 
     function land_update(Request $request)
     {
@@ -2460,13 +2421,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
 
@@ -2475,13 +2436,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
 
@@ -2490,65 +2451,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Land::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
                 Land::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/lands/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/lands/" . $photoName), 100);
+                unlink(base_path("public/uploads/lands/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/lands/" . $photoName), 100);
             }
         }
         return back()->with('success', 'land information have been successfully Updated.');
@@ -2617,56 +2578,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo'] = $filename;
         }
         $community->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo1'] = $filename;
         }
         $community->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo2'] = $filename;
         }
         $community->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo3'] = $filename;
         }
         $community->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo4'] = $filename;
         }
         $community->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo5'] = $filename;
         }
         $community->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/'), $filename);
+            $file->move(public_path('public/uploads/communities/'), $filename);
             $community['photo6'] = $filename;
         }
         $community->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/communities/videos'), $filename);
+            $file->move(public_path('public/uploads/communities/videos'), $filename);
             $community['video'] = $filename;
         }
         $community->save();
@@ -2715,11 +2676,7 @@ class DashboardController extends Controller
         return view('Dashboard.community_center.list_community_center', compact('lists', 'trashed_lists'));
     }
 
-    function community_edit($id)
-    {
-        $list = Community_Center::findOrFail($id);
-        return view('Dashboard.community_center.single_community_center_list', compact('list'));
-    }
+
 
     function community_update(Request $request)
     {
@@ -2756,13 +2713,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
 
@@ -2771,13 +2728,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
 
@@ -2786,65 +2743,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Community_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
                 Community_Center::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/communities/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/communities/" . $photoName), 100);
+                unlink(base_path("public/uploads/communities/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/communities/" . $photoName), 100);
             }
         }
         return back()->with('success', 'community center information have been successfully Updated.');
@@ -2907,56 +2864,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo1'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo2'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo3'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo4'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo5'] = $filename;
         }
         $shooting->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/'), $filename);
+            $file->move(public_path('public/uploads/shootings/'), $filename);
             $shooting['photo6'] = $filename;
         }
         $shooting->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shootings/videos'), $filename);
+            $file->move(public_path('public/uploads/shootings/videos'), $filename);
             $shooting['video'] = $filename;
         }
         $shooting->save();
@@ -3001,11 +2958,7 @@ class DashboardController extends Controller
         return view('Dashboard.shooting_spot.list_shooting', compact('lists', 'trashed_lists'));
     }
 
-    function shooting_edit($id)
-    {
-        $list = Shooting_Spot::findOrFail($id);
-        return view('Dashboard.shooting_spot.single_shooting_list', compact('list'));
-    }
+
 
     function shooting_update(Request $request)
     {
@@ -3043,13 +2996,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
 
@@ -3058,13 +3011,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
 
@@ -3073,65 +3026,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Shooting_Spot::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
                 Shooting_Spot::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shootings/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shootings/" . $photoName), 100);
+                unlink(base_path("public/uploads/shootings/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shootings/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Shooting Spot information have been successfully Updated.');
@@ -3194,56 +3147,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo'] = $filename;
         }
         $shop->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo1'] = $filename;
         }
         $shop->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo2'] = $filename;
         }
         $shop->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo3'] = $filename;
         }
         $shop->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo4'] = $filename;
         }
         $shop->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo5'] = $filename;
         }
         $shop->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/'), $filename);
+            $file->move(public_path('public/uploads/shops/'), $filename);
             $shop['photo6'] = $filename;
         }
         $shop->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/shops/videos'), $filename);
+            $file->move(public_path('public/uploads/shops/videos'), $filename);
             $shop['video'] = $filename;
         }
         $shop->save();
@@ -3286,11 +3239,7 @@ class DashboardController extends Controller
         return view('Dashboard.shop.list_shop', compact('lists', 'trashed_lists'));
     }
 
-    function shop_edit($id)
-    {
-        $list = Shop::findOrFail($id);
-        return view('Dashboard.shop.single_shop_list', compact('list'));
-    }
+
 
     function shop_update(Request $request)
     {
@@ -3321,13 +3270,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
 
@@ -3336,13 +3285,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
 
@@ -3351,65 +3300,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Shop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
                 Shop::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/shops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/shops/" . $photoName), 100);
+                unlink(base_path("public/uploads/shops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/shops/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Shop information have been successfully Updated.');
@@ -3473,56 +3422,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo'] = $filename;
         }
         $factory->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo1'] = $filename;
         }
         $factory->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo2'] = $filename;
         }
         $factory->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo3'] = $filename;
         }
         $factory->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo4'] = $filename;
         }
         $factory->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo5'] = $filename;
         }
         $factory->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/'), $filename);
+            $file->move(public_path('public/uploads/factories/'), $filename);
             $factory['photo6'] = $filename;
         }
         $factory->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/factories/videos'), $filename);
+            $file->move(public_path('public/uploads/factories/videos'), $filename);
             $factory['video'] = $filename;
         }
         $factory->save();
@@ -3567,11 +3516,7 @@ class DashboardController extends Controller
         return view('Dashboard.factory.list_factory', compact('lists', 'trashed_lists'));
     }
 
-    function factory_edit($id)
-    {
-        $list = Factory::findOrFail($id);
-        return view('Dashboard.factory.single_factory_list', compact('list'));
-    }
+
 
     function factory_update(Request $request)
     {
@@ -3606,13 +3551,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
 
@@ -3621,13 +3566,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
 
@@ -3636,65 +3581,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Factory::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
                 Factory::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/factories/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/factories/" . $photoName), 100);
+                unlink(base_path("public/uploads/factories/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/factories/" . $photoName), 100);
             }
         }
         return back()->with('success', 'factory information have been successfully Updated.');
@@ -3761,56 +3706,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo1'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo2'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo3'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo4'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo5'] = $filename;
         }
         $warehouse->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/'), $filename);
+            $file->move(public_path('public/uploads/warehouses/'), $filename);
             $warehouse['photo6'] = $filename;
         }
         $warehouse->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/warehouses/videos'), $filename);
+            $file->move(public_path('public/uploads/warehouses/videos'), $filename);
             $warehouse['video'] = $filename;
         }
         $warehouse->save();
@@ -3856,11 +3801,7 @@ class DashboardController extends Controller
         return view('Dashboard.warehouse.list_warehouse', compact('lists', 'trashed_lists'));
     }
 
-    function warehouse_edit($id)
-    {
-        $list = Warehouse::findOrFail($id);
-        return view('Dashboard.warehouse.single_warehouse_list', compact('list'));
-    }
+
 
     function warehouse_update(Request $request)
     {
@@ -3895,13 +3836,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
 
@@ -3910,13 +3851,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
 
@@ -3925,65 +3866,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Warehouse::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
                 Warehouse::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/warehouses/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/warehouses/" . $photoName), 100);
+                unlink(base_path("public/uploads/warehouses/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/warehouses/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Warehouse information have been successfully Updated.');
@@ -4040,56 +3981,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo'] = $filename;
         }
         $pond->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo1'] = $filename;
         }
         $pond->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo2'] = $filename;
         }
         $pond->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo3'] = $filename;
         }
         $pond->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo4'] = $filename;
         }
         $pond->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo5'] = $filename;
         }
         $pond->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/'), $filename);
+            $file->move(public_path('public/uploads/ponds/'), $filename);
             $pond['photo6'] = $filename;
         }
         $pond->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/ponds/videos'), $filename);
+            $file->move(public_path('public/uploads/ponds/videos'), $filename);
             $pond['video'] = $filename;
         }
         $pond->save();
@@ -4127,11 +4068,7 @@ class DashboardController extends Controller
         return view('Dashboard.pond.list_pond', compact('lists', 'trashed_lists'));
     }
 
-    function pond_edit($id)
-    {
-        $list = Pond::findOrFail($id);
-        return view('Dashboard.pond.single_pond_list', compact('list'));
-    }
+
 
     function pond_update(Request $request)
     {
@@ -4158,13 +4095,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
 
@@ -4173,13 +4110,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
 
@@ -4188,65 +4125,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Pond::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
                 Pond::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/ponds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/ponds/" . $photoName), 100);
+                unlink(base_path("public/uploads/ponds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/ponds/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Pond information have been successfully Updated.');
@@ -4309,56 +4246,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo1'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo2'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo3'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo4'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo5'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/'), $filename);
             $swimmingpool['photo6'] = $filename;
         }
         $swimmingpool->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/swimmingpools/videos'), $filename);
+            $file->move(public_path('public/uploads/swimmingpools/videos'), $filename);
             $swimmingpool['video'] = $filename;
         }
         $swimmingpool->save();
@@ -4399,11 +4336,6 @@ class DashboardController extends Controller
         return view('Dashboard.swimmingpool.list_swimmingpool', compact('lists', 'trashed_lists'));
     }
 
-    function swimmingpool_edit($id)
-    {
-        $list = Swimming_Pool::findOrFail($id);
-        return view('Dashboard.swimmingpool.single_swimmingpool_list', compact('list'));
-    }
 
     function swimmingpool_update(Request $request)
     {
@@ -4432,13 +4364,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
 
@@ -4447,13 +4379,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
 
@@ -4462,65 +4394,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Swimming_Pool::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
                 Swimming_Pool::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/swimmingpools/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/swimmingpools/" . $photoName), 100);
+                unlink(base_path("public/uploads/swimmingpools/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/swimmingpools/" . $photoName), 100);
             }
         }
         return back()->with('success', 'swimmingpool information have been successfully Updated.');
@@ -4578,56 +4510,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo1'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo2'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo3'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo4'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo5'] = $filename;
         }
         $bilboard->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/'), $filename);
+            $file->move(public_path('public/uploads/billboards/'), $filename);
             $bilboard['photo6'] = $filename;
         }
         $bilboard->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/billboards/videos'), $filename);
+            $file->move(public_path('public/uploads/billboards/videos'), $filename);
             $bilboard['video'] = $filename;
         }
         $bilboard->save();
@@ -4662,11 +4594,7 @@ class DashboardController extends Controller
         return view('Dashboard.bilboard.list_bilboard', compact('lists', 'trashed_lists'));
     }
 
-    function bilboard_edit($id)
-    {
-        $list = Bilboard::findOrFail($id);
-        return view('Dashboard.bilboard.single_bilboard_list', compact('list'));
-    }
+
 
     function bilboard_update(Request $request)
     {
@@ -4694,13 +4622,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
 
@@ -4709,13 +4637,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
 
@@ -4724,65 +4652,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Bilboard::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
                 Bilboard::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/billboards/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/billboards/" . $photoName), 100);
+                unlink(base_path("public/uploads/billboards/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/billboards/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Billboard information have been successfully Updated.');
@@ -4845,56 +4773,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo1'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo2'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo3'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo4'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo5'] = $filename;
         }
         $rooftop->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/'), $filename);
+            $file->move(public_path('public/uploads/rooftops/'), $filename);
             $rooftop['photo6'] = $filename;
         }
         $rooftop->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/rooftops/videos'), $filename);
+            $file->move(public_path('public/uploads/rooftops/videos'), $filename);
             $rooftop['video'] = $filename;
         }
         $rooftop->save();
@@ -4938,11 +4866,7 @@ class DashboardController extends Controller
         return view('Dashboard.rooftop.list_rooftop', compact('lists', 'trashed_lists'));
     }
 
-    function rooftop_edit($id)
-    {
-        $list = Rooftop::findOrFail($id);
-        return view('Dashboard.rooftop.single_rooftop_list', compact('list'));
-    }
+
 
     function rooftop_update(Request $request)
     {
@@ -4971,13 +4895,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
 
@@ -4986,13 +4910,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
 
@@ -5001,65 +4925,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Rooftop::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
                 Rooftop::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/rooftops/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/rooftops/" . $photoName), 100);
+                unlink(base_path("public/uploads/rooftops/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/rooftops/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Rooftop information have been successfully Updated.');
@@ -5171,11 +5095,7 @@ class DashboardController extends Controller
         return view('Dashboard.restaurant.list_restaurant', compact('lists', 'trashed_lists'));
     }
 
-    function restuarant_edit($id)
-    {
-        $list = Restaurant::findOrFail($id);
-        return view('Dashboard.restaurant.single_restaurant_list', compact('list'));
-    }
+
 
     function restuarant_update(Request $request)
     {
@@ -5216,13 +5136,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
 
@@ -5231,13 +5151,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
 
@@ -5246,65 +5166,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Restaurant::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
                 Restaurant::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/restaurants/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/restaurants/" . $photoName), 100);
+                unlink(base_path("public/uploads/restaurants/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/restaurants/" . $photoName), 100);
             }
         }
         return back()->with('success', 'restaurant information have been successfully Updated.');
@@ -5367,56 +5287,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo1'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo2'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo3'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo4'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo5'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/'), $filename);
             $exibution_center['photo6'] = $filename;
         }
         $exibution_center->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/exhibutions/videos'), $filename);
+            $file->move(public_path('public/uploads/exhibutions/videos'), $filename);
             $exibution_center['video'] = $filename;
         }
         $exibution_center->save();
@@ -5459,12 +5379,6 @@ class DashboardController extends Controller
         return view('Dashboard.exibution_center.list_exibution_center', compact('lists', 'trashed_lists'));
     }
 
-    function exibution_center_edit($id)
-    {
-        $list = Exibution_Center::findOrFail($id);
-        return view('Dashboard.exibution_center.single_exibution_center_list', compact('list'));
-    }
-
     function exibution_center_update(Request $request)
     {
 
@@ -5504,13 +5418,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
 
@@ -5519,13 +5433,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
 
@@ -5534,65 +5448,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Exibution_Center::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
                 Exibution_Center::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/exhibutions/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/exhibutions/" . $photoName), 100);
+                unlink(base_path("public/uploads/exhibutions/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/exhibutions/" . $photoName), 100);
             }
         }
         return back()->with('success', 'exibution_center information have been successfully Updated.');
@@ -5656,56 +5570,56 @@ class DashboardController extends Controller
         if ($request->file('photo')) {
             $file = $request->file('photo');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo'] = $filename;
         }
         $playground->save();
         if ($request->file('photo1')) {
             $file = $request->file('photo1');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo1'] = $filename;
         }
         $playground->save();
         if ($request->file('photo2')) {
             $file = $request->file('photo2');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo2'] = $filename;
         }
         $playground->save();
         if ($request->file('photo3')) {
             $file = $request->file('photo3');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo3'] = $filename;
         }
         $playground->save();
         if ($request->file('photo4')) {
             $file = $request->file('photo4');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo4'] = $filename;
         }
         $playground->save();
         if ($request->file('photo5')) {
             $file = $request->file('photo5');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo5'] = $filename;
         }
         $playground->save();
         if ($request->file('photo6')) {
             $file = $request->file('photo6');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/'), $filename);
             $playground['photo6'] = $filename;
         }
         $playground->save();
         if ($request->file('video')) {
             $file = $request->file('video');
             $filename = date('YmdHi') . $file->getClientOriginalName();
-            $file->move(public_path('uploads/playgrounds/videos'), $filename);
+            $file->move(public_path('public/uploads/playgrounds/videos'), $filename);
             $playground['video'] = $filename;
         }
         $playground->save();
@@ -5747,11 +5661,7 @@ class DashboardController extends Controller
         return view('Dashboard.play_ground.list_playground', compact('lists', 'trashed_lists'));
     }
 
-    function playground_edit($id)
-    {
-        $list = Play_ground::findOrFail($id);
-        return view('Dashboard.play_ground.single_playground_list', compact('list'));
-    }
+
 
     function playground_update(Request $request)
     {
@@ -5780,13 +5690,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo');
             $photoName = date('YmdHi') . 'photo' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
 
@@ -5795,13 +5705,13 @@ class DashboardController extends Controller
             $photo = $request->file('photo1');
             $photoName = date('YmdHi') . 'photo1' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo1' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
 
@@ -5810,65 +5720,65 @@ class DashboardController extends Controller
 
             $photoName = date('YmdHi') . 'photo2' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo2' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo3')) {
             $photo = $request->file('photo3');
             $photoName = date('YmdHi') . 'photo3' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo3' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo4')) {
             $photo = $request->file('photo4');
             $photoName = date('YmdHi') . 'photo4' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo4' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo5')) {
             $photo = $request->file('photo5');
             $photoName = date('YmdHi') . 'photo5' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo5' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
         if ($request->hasFile('photo6')) {
             $photo = $request->file('photo6');
             $photoName = date('YmdHi') . 'photo6' . '.' . $photo->getClientOriginalExtension();
             if (Play_ground::findOrFail($request->id)) {
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
                 Play_ground::findOrFail($request->id)->update([
                     'photo6' => $photoName,
                 ]);
             } else {
-                unlink(base_path("uploads/playgrounds/" . $photoName));
-                Image::make($photo)->resize(800, 800)->save(base_path("uploads/playgrounds/" . $photoName), 100);
+                unlink(base_path("public/uploads/playgrounds/" . $photoName));
+                Image::make($photo->getRealPath())->resize(800, 800)->save(base_path("public/uploads/playgrounds/" . $photoName), 100);
             }
         }
         return back()->with('success', 'Play ground information have been successfully Updated.');

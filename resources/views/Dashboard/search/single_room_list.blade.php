@@ -51,28 +51,28 @@
                     <section id="default" class="padding-top0">
                         <div class="row">
                             <div class="xzoom-container">
-                                <img class="xzoom zoom_main" id="xzoom-default" src="{{ asset('//uploads/rooms') }}/{{ $list->photo }}" xoriginal=" {{ asset('//uploads/rooms') }}/{{ $list->photo }}" />
+                                <img class="xzoom zoom_main" id="xzoom-default" src="{{ asset('uploads/rooms.$list->photo' ) }}" xoriginal=" {{ asset('uploads/rooms') }}/{{ $list->photo }}" />
                                 <div class="xzoom-thumbs" style="display:flex; margin-top:10px;">
-                                    <a href=" {{ asset('//uploads/rooms') }}/{{ $list->photo1 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo1 }}" xpreview=" {{ asset('//uploads/rooms') }}/{{ $list->photo1 }}">
+                                    <a href=" {{ asset('uploads//rooms') }}/{{ $list->photo1 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads/rooms') }}/{{ $list->photo1 }}" xpreview=" {{ asset('uploads/rooms') }}/{{ $list->photo1 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo2 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo2 }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo2 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo2 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo3 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo3 }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo3 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo3 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo4 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo4 }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo4 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo4 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo5 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo5 }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo5 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo5 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo6 }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo6 }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo6 }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo6 }}">
                                     </a>
-                                    <a href="{{ asset('//uploads/rooms') }}/{{ $list->photo }}">
-                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('//uploads/rooms') }}/{{ $list->photo }}">
+                                    <a href="{{ asset('uploads//rooms') }}/{{ $list->photo }}">
+                                        <img class="xzoom-gallery thumb" width="50" src="{{ asset('uploads//rooms') }}/{{ $list->photo }}">
                                     </a>
 
                                 </div>
@@ -83,8 +83,8 @@
                     <!-- default end -->
 
 
-                    
-                 
+
+
                     <div class="m-2 video_button" data-bs-toggle="modal" data-bs-target="#videoModal">
                         <i class="fa-solid fa-circle-play fa-2xl"></i>
                     </div>
@@ -107,7 +107,7 @@
                 <div>
                     <h2>Posted By-</h2>
                     <div class="d-flex">
-                        <img src="{{asset('//uploads/registers')}}/{{$list->Room_relationBetweenUser->photo}}" class="rounded-circle single-pg-img" alt="" srcset="">
+                        <img src="{{asset('uploads//registers')}}/{{$list->Room_relationBetweenUser->photo}}" class="rounded-circle single-pg-img" alt="" srcset="">
                         <div class=" text-center my-2 ms-4">
                             <a href="# " class=" " data-toggle="tooltip" data-placement="top" title="Badge 1">
                                 <i class="fas fa-medal"></i>
@@ -304,15 +304,15 @@
         </div>
 
     </div>
-    
+
     <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- Single item End -->
 
         @include('frontend.include.footer')   <!-- Option 2: Separate Popper and Bootstrap JS -->
 
-   
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <!-- <script src="{{asset('Frontend/assets/js/slick.js')}}"></script>
@@ -335,13 +335,13 @@
             });
         </script> -->
 
-        <script type="text/javascript" src="{{asset('Frontend/assets/js/foundation.min.js')}}"></script> 
-        <script type="text/javascript" src="{{asset('Frontend/assets/js/setup.js')}}"></script> 
-    <script type="text/javascript" src="{{asset('Frontend/assets/js/xzoom.min.js')}}"></script>  
+        <script type="text/javascript" src="{{asset('Frontend/assets/js/foundation.min.js')}}"></script>
+        <script type="text/javascript" src="{{asset('Frontend/assets/js/setup.js')}}"></script>
+    <script type="text/javascript" src="{{asset('Frontend/assets/js/xzoom.min.js')}}"></script>
 
-        
 
- 
+
+
 
 </body>
 </html>

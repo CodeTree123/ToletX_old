@@ -41,8 +41,7 @@
 
 <body>
     @include('frontend.include.header')
-    <!-- <img class="bzoom_thumb_image" src=" {{ asset('Frontend/assets/img/single_pg/house_1.jpg') }}" title="first img" /> -->
-    <!-- Single item Start -->
+
     <div class="main-wrapperX container">
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 product-divX ">
@@ -345,7 +344,7 @@
 
     </div>
 
-    <!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Single item End -->
@@ -355,29 +354,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- <script src="{{asset('Frontend/assets/js/slick.js')}}"></script>
-        <script src="{{asset('Frontend/assets/js/xzoom.js')}}"></script>
-        <script>
-             $('.slider-for').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-                fade: true,
-                asNavFor: '.slider-nav'
-                });
-            $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: false,
-            centerMode: true,
-            focusOnSelect: true
-            });
-        </script> -->
-
     <script type="text/javascript" src="{{asset('Frontend/assets/js/foundation.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('Frontend/assets/js/setup.js')}}"></script>
     <script type="text/javascript" src="{{asset('Frontend/assets/js/xzoom.min.js')}}"></script>
 </body>
+
 </html>

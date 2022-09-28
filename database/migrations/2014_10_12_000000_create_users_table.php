@@ -26,6 +26,7 @@ class CreateUsersTable extends Migration
             $table->string('address')->nullable();
             $table->string('date_of_birth');
             $table->string('gender');
+            $table->string('admin_verify')->default(0);
             $table->string('n_photo1')->nullable();
             $table->string('n_photo2')->nullable();
             $table->string('fav_qt1')->nullable();

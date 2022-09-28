@@ -75,7 +75,7 @@
     Route::get('/post/shooting', [App\Http\Controllers\UserWantedController::class, 'post_shooting'])->name('post_shooting');
     Route::get('/post/exhibution', [App\Http\Controllers\UserWantedController::class, 'post_exhibution'])->name('post_exhibution');
     Route::get('/post/rooftop', [App\Http\Controllers\UserWantedController::class, 'post_rooftop'])->name('post_rooftop');
-    //end Rented and wanted post user 
+    //end Rented and wanted post user
 
 
     //begin All Search
@@ -303,7 +303,6 @@
     Route::get('/list/room', [App\Http\Controllers\DashboardController::class, 'list_room'])->name('list_room');
     Route::post('/post/room/rented', [App\Http\Controllers\DashboardController::class, 'post_room_rented'])->name('post_room_rented');
     Route::post('/post/room/wanted', [App\Http\Controllers\DashboardController::class, 'post_room_wanted'])->name('post_room_wanted');
-    Route::get('/room/edit/{id}', [App\Http\Controllers\DashboardController::class, 'room_edit'])->name('room_edit');
     Route::post('/room/update', [App\Http\Controllers\DashboardController::class, 'room_update'])->name('room_update');
     Route::get('/room/delete/{id}', [App\Http\Controllers\DashboardController::class, 'room_delete'])->name('room_delete');
     Route::get('/room/restore/{id}', [App\Http\Controllers\DashboardController::class, 'room_restore'])->name('room_restore');
@@ -316,7 +315,6 @@
     Route::get('/list/flat', [App\Http\Controllers\DashboardController::class, 'list_flat'])->name('list_flat');
     Route::post('/post/flat/rented', [App\Http\Controllers\DashboardController::class, 'post_flat_rented'])->name('post_flat_rented');
     Route::post('/post/flat/wanted', [App\Http\Controllers\DashboardController::class, 'post_flat_wanted'])->name('post_flat_wanted');
-    Route::get('/flat/edit/{id}', [App\Http\Controllers\DashboardController::class, 'flat_edit'])->name('flat_edit');
     Route::post('/flat/update', [App\Http\Controllers\DashboardController::class, 'flat_update'])->name('flat_update');
     Route::get('/flat/delete/{id}', [App\Http\Controllers\DashboardController::class, 'flat_delete'])->name('flat_delete');
     Route::get('/flat/restore/{id}', [App\Http\Controllers\DashboardController::class, 'flat_restore'])->name('flat_restore');
@@ -327,7 +325,7 @@
     Route::get('/list/ghat', [App\Http\Controllers\DashboardController::class, 'list_ghat'])->name('list_ghat');
     Route::post('/post/ghat/rented', [App\Http\Controllers\DashboardController::class, 'post_ghat_rented'])->name('post_ghat_rented');
     Route::post('/post/ghat/wanted', [App\Http\Controllers\DashboardController::class, 'post_ghat_wanted'])->name('post_ghat_wanted');
-    Route::get('/ghat/edit/{id}', [App\Http\Controllers\DashboardController::class, 'ghat_edit'])->name('ghat_edit');
+
     Route::post('/ghat/update', [App\Http\Controllers\DashboardController::class, 'ghat_update'])->name('ghat_update');
     Route::get('/ghat/delete/{id}', [App\Http\Controllers\DashboardController::class, 'ghat_delete'])->name('ghat_delete');
     Route::get('/ghat/restore/{id}', [App\Http\Controllers\DashboardController::class, 'ghat_restore'])->name('ghat_restore');
@@ -338,7 +336,6 @@
     Route::get('/list/picnic', [App\Http\Controllers\DashboardController::class, 'list_picnic'])->name('list_picnic');
     Route::post('/post/picnic/rented', [App\Http\Controllers\DashboardController::class, 'post_picnic_rented'])->name('post_picnic_rented');
     Route::post('/post/picnic/wanted', [App\Http\Controllers\DashboardController::class, 'post_picnic_wanted'])->name('post_picnic_wanted');
-    Route::get('/picnic/edit/{id}', [App\Http\Controllers\DashboardController::class, 'picnic_edit'])->name('picnic_edit');
     Route::post('/picnic/update', [App\Http\Controllers\DashboardController::class, 'picnic_update'])->name('picnic_update');
     Route::get('/picnic/delete/{id}', [App\Http\Controllers\DashboardController::class, 'picnic_delete'])->name('picnic_delete');
     Route::get('/picnic/restore/{id}', [App\Http\Controllers\DashboardController::class, 'picnic_restore'])->name('picnic_restore');
@@ -349,7 +346,6 @@
     Route::get('/list/building', [App\Http\Controllers\DashboardController::class, 'list_buildingt'])->name('list_building');
     Route::post('/post/building/rented', [App\Http\Controllers\DashboardController::class, 'post_building_rented'])->name('post_building_rented');
     Route::post('/post/building/wanted', [App\Http\Controllers\DashboardController::class, 'post_building_wanted'])->name('post_building_wanted');
-    Route::get('/building/edit/{id}', [App\Http\Controllers\DashboardController::class, 'building_edit'])->name('building_edit');
     Route::post('/building/update', [App\Http\Controllers\DashboardController::class, 'building_update'])->name('building_update');
     Route::get('/building/delete/{id}', [App\Http\Controllers\DashboardController::class, 'building_delete'])->name('building_delete');
     Route::get('/building/restore/{id}', [App\Http\Controllers\DashboardController::class, 'building_restore'])->name('building_restore');
@@ -360,8 +356,6 @@
     Route::get('/list/parking', [App\Http\Controllers\DashboardController::class, 'list_parking_spot'])->name('list_parking_spot');
     Route::post('/post/parking/rented', [App\Http\Controllers\DashboardController::class, 'post_parking_spot_rented'])->name('post_parking_spot_rented');
     Route::post('/post/parking/wanted', [App\Http\Controllers\DashboardController::class, 'post_parking_spot_wanted'])->name('post_parking_spot_wanted');
-
-    Route::get('/parking/edit/{id}', [App\Http\Controllers\DashboardController::class, 'parking_spot_edit'])->name('parking_spot_edit');
     Route::post('/parking/update', [App\Http\Controllers\DashboardController::class, 'parking_spot_update'])->name('parking_spot_update');
     Route::get('/parking/delete/{id}', [App\Http\Controllers\DashboardController::class, 'parking_spot_delete'])->name('parking_spot_delete');
     Route::get('/parking/restore/{id}', [App\Http\Controllers\DashboardController::class, 'parking_spot_restore'])->name('parking_spot_restore');
@@ -372,7 +366,6 @@
     Route::get('/add/hostel', [App\Http\Controllers\DashboardController::class, 'add_hostel'])->name('add_hostel');
     Route::post('/post/hostel/rented', [App\Http\Controllers\DashboardController::class, 'post_hostel_rented'])->name('post_hostel_rented');
     Route::post('/post/hostel/wented', [App\Http\Controllers\DashboardController::class, 'post_hostel_wanted'])->name('post_hostel_wanted');
-    Route::get('/hostel/edit/{id}', [App\Http\Controllers\DashboardController::class, 'hostel_edit'])->name('hostel_edit');
     Route::get('/hostel/delete/{id}', [App\Http\Controllers\DashboardController::class, 'hostel_delete'])->name('hostel_delete');
     Route::get('/hostel/restore/{id}', [App\Http\Controllers\DashboardController::class, 'hostel_restore'])->name('hostel_restore');
     Route::post('/hostel/update', [App\Http\Controllers\DashboardController::class, 'hostel_update'])->name('hostel_update');
@@ -384,7 +377,6 @@
     Route::get('/list/office', [App\Http\Controllers\DashboardController::class, 'list_office'])->name('list_office');
     Route::post('/post/office/rented', [App\Http\Controllers\DashboardController::class, 'post_office_rented'])->name('post_office_rented');
     Route::post('/post/office/wanted', [App\Http\Controllers\DashboardController::class, 'post_office_wanted'])->name('post_office_wanted');
-    Route::get('/office/edit/{id}', [App\Http\Controllers\DashboardController::class, 'office_edit'])->name('office_edit');
     Route::post('/office/update', [App\Http\Controllers\DashboardController::class, 'office_update'])->name('office_update');
     Route::get('/office/delete/{id}', [App\Http\Controllers\DashboardController::class, 'office_delete'])->name('office_delete');
     Route::get('/office/restore/{id}', [App\Http\Controllers\DashboardController::class, 'office_restore'])->name('office_restore');
@@ -395,7 +387,6 @@
     Route::get('/list/land', [App\Http\Controllers\DashboardController::class, 'list_land'])->name('list_land');
     Route::post('/post/land/rented', [App\Http\Controllers\DashboardController::class, 'post_land_rented'])->name('post_land_rented');
     Route::post('/post/land/wanted', [App\Http\Controllers\DashboardController::class, 'post_land_wanted'])->name('post_land_wanted');
-    Route::get('/land/edit/{id}', [App\Http\Controllers\DashboardController::class, 'land_edit'])->name('land_edit');
     Route::post('/land/update', [App\Http\Controllers\DashboardController::class, 'land_update'])->name('land_update');
     Route::get('/land/delete/{id}', [App\Http\Controllers\DashboardController::class, 'land_delete'])->name('land_delete');
     Route::get('/land/restore/{id}', [App\Http\Controllers\DashboardController::class, 'land_restore'])->name('land_restore');
@@ -406,7 +397,6 @@
     Route::get('/list/community', [App\Http\Controllers\DashboardController::class, 'list_community'])->name('list_community');
     Route::post('/post/community/rented', [App\Http\Controllers\DashboardController::class, 'post_community_rented'])->name('post_community_rented');
     Route::post('/post/community/wanted', [App\Http\Controllers\DashboardController::class, 'post_community_wanted'])->name('post_community_wanted');
-    Route::get('/community/edit/{id}', [App\Http\Controllers\DashboardController::class, 'community_edit'])->name('community_edit');
     Route::post('/community/update', [App\Http\Controllers\DashboardController::class, 'community_update'])->name('community_update');
     Route::get('/community/delete/{id}', [App\Http\Controllers\DashboardController::class, 'community_delete'])->name('community_delete');
     Route::get('/community/restore/{id}', [App\Http\Controllers\DashboardController::class, 'community_restore'])->name('community_restore');
@@ -417,7 +407,6 @@
     Route::get('/list/shooting', [App\Http\Controllers\DashboardController::class, 'list_shooting'])->name('list_shooting');
     Route::post('/post/shooting/rented', [App\Http\Controllers\DashboardController::class, 'post_shooting_rented'])->name('post_shooting_rented');
     Route::post('/post/shooting/wanted', [App\Http\Controllers\DashboardController::class, 'post_shooting_wanted'])->name('post_shooting_wanted');
-    Route::get('/shooting/edit/{id}', [App\Http\Controllers\DashboardController::class, 'shooting_edit'])->name('shooting_edit');
     Route::post('/shooting/update', [App\Http\Controllers\DashboardController::class, 'shooting_update'])->name('shooting_update');
     Route::get('/shooting/delete/{id}', [App\Http\Controllers\DashboardController::class, 'shooting_delete'])->name('shooting_delete');
     Route::get('/shooting/restore/{id}', [App\Http\Controllers\DashboardController::class, 'shooting_restore'])->name('shooting_restore');
@@ -428,7 +417,6 @@
     Route::get('/list/shop', [App\Http\Controllers\DashboardController::class, 'list_shop'])->name('list_shop');
     Route::post('/post/shop/rented', [App\Http\Controllers\DashboardController::class, 'post_shop_rented'])->name('post_shop_rented');
     Route::post('/post/shop/wanted', [App\Http\Controllers\DashboardController::class, 'post_shop_wanted'])->name('post_shop_wanted');
-    Route::get('/shop/edit/{id}', [App\Http\Controllers\DashboardController::class, 'shop_edit'])->name('shop_edit');
     Route::post('/shop/update', [App\Http\Controllers\DashboardController::class, 'shop_update'])->name('shop_update');
     Route::get('/shop/delete/{id}', [App\Http\Controllers\DashboardController::class, 'shop_delete'])->name('shop_delete');
     Route::get('/shop/restore/{id}', [App\Http\Controllers\DashboardController::class, 'shop_restore'])->name('shop_restore');
@@ -439,7 +427,6 @@
     Route::get('/list/factory', [App\Http\Controllers\DashboardController::class, 'list_factory'])->name('list_factory');
     Route::post('/post/factory/rented', [App\Http\Controllers\DashboardController::class, 'post_factory_rented'])->name('post_factory_rented');
     Route::post('/post/factory/wanted', [App\Http\Controllers\DashboardController::class, 'post_factory_wanted'])->name('post_factory_wanted');
-    Route::get('/factory/edit/{id}', [App\Http\Controllers\DashboardController::class, 'factory_edit'])->name('factory_edit');
     Route::post('/factory/update', [App\Http\Controllers\DashboardController::class, 'factory_update'])->name('factory_update');
     Route::get('/factory/delete/{id}', [App\Http\Controllers\DashboardController::class, 'factory_delete'])->name('factory_delete');
     Route::get('/factory/restore/{id}', [App\Http\Controllers\DashboardController::class, 'factory_restore'])->name('factory_restore');
@@ -450,7 +437,6 @@
     Route::get('/list/warehouse', [App\Http\Controllers\DashboardController::class, 'list_warehouse'])->name('list_warehouse');
     Route::post('/post/warehouse/rented', [App\Http\Controllers\DashboardController::class, 'post_warehouse_rented'])->name('post_warehouse_rented');
     Route::post('/post/warehouse/wanted', [App\Http\Controllers\DashboardController::class, 'post_warehouse_wanted'])->name('post_warehouse_wanted');
-    Route::get('/warehouse/edit/{id}', [App\Http\Controllers\DashboardController::class, 'warehouse_edit'])->name('warehouse_edit');
     Route::post('/warehouse/update', [App\Http\Controllers\DashboardController::class, 'warehouse_update'])->name('warehouse_update');
     Route::get('/warehouse/delete/{id}', [App\Http\Controllers\DashboardController::class, 'warehouse_delete'])->name('warehouse_delete');
     Route::get('/warehouse/restore/{id}', [App\Http\Controllers\DashboardController::class, 'warehouse_restore'])->name('warehouse_restore');
@@ -461,7 +447,6 @@
     Route::get('/list/pond', [App\Http\Controllers\DashboardController::class, 'list_pond'])->name('list_pond');
     Route::post('/post/pond/rented', [App\Http\Controllers\DashboardController::class, 'post_pond_rented'])->name('post_pond_rented');
     Route::post('/post/pond/wanted', [App\Http\Controllers\DashboardController::class, 'post_pond_wanted'])->name('post_pond_wanted');
-    Route::get('/pond/edit/{id}', [App\Http\Controllers\DashboardController::class, 'pond_edit'])->name('pond_edit');
     Route::post('/pond/update', [App\Http\Controllers\DashboardController::class, 'pond_update'])->name('pond_update');
     Route::get('/pond/delete/{id}', [App\Http\Controllers\DashboardController::class, 'pond_delete'])->name('pond_delete');
     Route::get('/pond/restore/{id}', [App\Http\Controllers\DashboardController::class, 'pond_restore'])->name('pond_restore');
@@ -472,7 +457,6 @@
     Route::get('/list/swimmingpool', [App\Http\Controllers\DashboardController::class, 'list_swimmingpool'])->name('list_swimmingpool');
     Route::post('/post/swimmingpool/rented', [App\Http\Controllers\DashboardController::class, 'post_swimmingpool_rented'])->name('post_swimmingpool_rented');
     Route::post('/post/swimmingpool/wanted', [App\Http\Controllers\DashboardController::class, 'post_swimmingpool_wanted'])->name('post_swimmingpool_wanted');
-    Route::get('/swimmingpool/edit/{id}', [App\Http\Controllers\DashboardController::class, 'swimmingpool_edit'])->name('swimmingpool_edit');
     Route::post('/swimmingpool/update', [App\Http\Controllers\DashboardController::class, 'swimmingpool_update'])->name('swimmingpool_update');
     Route::get('/swimmingpool/delete/{id}', [App\Http\Controllers\DashboardController::class, 'swimmingpool_delete'])->name('swimmingpool_delete');
     Route::get('/swimmingpool/restore/{id}', [App\Http\Controllers\DashboardController::class, 'swimmingpool_restore'])->name('swimmingpool_restore');
@@ -483,7 +467,6 @@
     Route::get('/list/bilboard', [App\Http\Controllers\DashboardController::class, 'list_bilboard'])->name('list_bilboard');
     Route::post('/post/bilboard/rented', [App\Http\Controllers\DashboardController::class, 'post_bilboard_rented'])->name('post_bilboard_rented');
     Route::post('/post/bilboard/wanted', [App\Http\Controllers\DashboardController::class, 'post_bilboard_wanted'])->name('post_bilboard_wanted');
-    Route::get('/bilboard/edit/{id}', [App\Http\Controllers\DashboardController::class, 'bilboard_edit'])->name('bilboard_edit');
     Route::post('/bilboard/update', [App\Http\Controllers\DashboardController::class, 'bilboard_update'])->name('bilboard_update');
     Route::get('/bilboard/delete/{id}', [App\Http\Controllers\DashboardController::class, 'bilboard_delete'])->name('bilboard_delete');
     Route::get('/bilboard/restore/{id}', [App\Http\Controllers\DashboardController::class, 'bilboard_restore'])->name('bilboard_restore');
@@ -494,7 +477,6 @@
     Route::get('/list/rooftop', [App\Http\Controllers\DashboardController::class, 'list_rooftop'])->name('list_rooftop');
     Route::post('/post/rooftop/rented', [App\Http\Controllers\DashboardController::class, 'post_rooftop_rented'])->name('post_rooftop_rented');
     Route::post('/post/rooftop/wanted', [App\Http\Controllers\DashboardController::class, 'post_rooftop_wanted'])->name('post_rooftop_wanted');
-    Route::get('/rooftop/edit/{id}', [App\Http\Controllers\DashboardController::class, 'rooftop_edit'])->name('rooftop_edit');
     Route::post('/rooftop/update', [App\Http\Controllers\DashboardController::class, 'rooftop_update'])->name('rooftop_update');
     Route::get('/rooftop/delete/{id}', [App\Http\Controllers\DashboardController::class, 'rooftop_delete'])->name('rooftop_delete');
     Route::get('/rooftop/restore/{id}', [App\Http\Controllers\DashboardController::class, 'rooftop_restore'])->name('rooftop_restore');
@@ -505,28 +487,16 @@
     Route::get('/list/restuarant', [App\Http\Controllers\DashboardController::class, 'list_restuarant'])->name('list_restuarant');
     Route::post('/post/restuarant/rented', [App\Http\Controllers\DashboardController::class, 'post_restuarant_rented'])->name('post_restuarant_rented');
     Route::post('/post/restuarant/wanted', [App\Http\Controllers\DashboardController::class, 'post_restuarant_wanted'])->name('post_restuarant_wanted');
-    Route::get('/restuarant/edit/{id}', [App\Http\Controllers\DashboardController::class, 'restuarant_edit'])->name('restuarant_edit');
     Route::post('/restuarant/update', [App\Http\Controllers\DashboardController::class, 'restuarant_update'])->name('restuarant_update');
     Route::get('/restuarant/delete/{id}', [App\Http\Controllers\DashboardController::class, 'restuarant_delete'])->name('restuarant_delete');
     Route::get('/restuarant/restore/{id}', [App\Http\Controllers\DashboardController::class, 'restuarant_restore'])->name('restuarant_restore');
     //end restuarant
-
-    //begin gallery
-    Route::get('/add/gallery', [App\Http\Controllers\DashboardController::class, 'add_gallery'])->name('add_gallery');
-    Route::get('/list/gallery', [App\Http\Controllers\DashboardController::class, 'list_gallery'])->name('list_gallery');
-    Route::post('/post/gallery', [App\Http\Controllers\DashboardController::class, 'post_gallery_rented'])->name('post_gallery_rented');
-    Route::get('/gallery/edit/{id}', [App\Http\Controllers\DashboardController::class, 'gallery_edit'])->name('gallery_edit');
-    Route::post('/gallery/update', [App\Http\Controllers\DashboardController::class, 'gallery_update'])->name('gallery_update');
-    Route::get('/gallery/delete/{id}', [App\Http\Controllers\DashboardController::class, 'gallery_delete'])->name('gallery_delete');
-    Route::get('/gallery/restore/{id}', [App\Http\Controllers\DashboardController::class, 'gallery_restore'])->name('gallery_restore');
-    //end gallery
 
     //begin playground
     Route::get('/add/playground', [App\Http\Controllers\DashboardController::class, 'add_playground'])->name('add_playground');
     Route::get('/list/playground', [App\Http\Controllers\DashboardController::class, 'list_playground'])->name('list_playground');
     Route::post('/post/playground/rented', [App\Http\Controllers\DashboardController::class, 'post_playground_rented'])->name('post_playground_rented');
     Route::post('/post/playground/wanted', [App\Http\Controllers\DashboardController::class, 'post_playground_wanted'])->name('post_playground_wanted');
-    Route::get('/playground/edit/{id}', [App\Http\Controllers\DashboardController::class, 'playground_edit'])->name('playground_edit');
     Route::post('/playground/update', [App\Http\Controllers\DashboardController::class, 'playground_update'])->name('playground_update');
     Route::get('/playground/delete/{id}', [App\Http\Controllers\DashboardController::class, 'playground_delete'])->name('playground_delete');
     Route::get('/playground/restore/{id}', [App\Http\Controllers\DashboardController::class, 'playground_restore'])->name('playground_restore');
@@ -537,7 +507,6 @@
     Route::get('/list/exibution_center', [App\Http\Controllers\DashboardController::class, 'list_exibution_center'])->name('list_exibution_center');
     Route::post('/post/exibution_center/wanted', [App\Http\Controllers\DashboardController::class, 'post_exibution_center_wanted'])->name('post_exibution_center_wanted');
     Route::post('/post/exibution_center/rented', [App\Http\Controllers\DashboardController::class, 'post_exibution_center_rented'])->name('post_exibution_center_rented');
-    Route::get('/exibutioncenter/edit/{id}', [App\Http\Controllers\DashboardController::class, 'exibution_center_edit'])->name('exibution_center_edit');
     Route::post('/exibutioncenter/update', [App\Http\Controllers\DashboardController::class, 'exibution_center_update'])->name('exibution_center_update');
     Route::get('/exibutioncenter/delete/{id}', [App\Http\Controllers\DashboardController::class, 'exibution_center_delete'])->name('exibution_center_delete');
     Route::get('/exibutioncenter/restore/{id}', [App\Http\Controllers\DashboardController::class, 'exibution_center_restore'])->name('exibution_center_restore');
