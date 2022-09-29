@@ -1,13 +1,6 @@
 @extends('layouts.master')
 @section('content')
-
-<style>
-.verify{
-    box-shadow: none !important;
-    font-size: 15px;
-    padding: 6px 20px;
-}
-</style>
+ 
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">

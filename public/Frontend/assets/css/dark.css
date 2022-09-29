@@ -2259,3 +2259,19 @@ embed {
 .p-custom-select{
     border
 }
+.verify{
+    box-shadow: none !important;
+    font-size: 15px;
+    padding: 6px 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

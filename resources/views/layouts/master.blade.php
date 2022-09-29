@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'toletx') }}</title>
+    <title>Toletx</title>
 
     <!-- Scripts -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

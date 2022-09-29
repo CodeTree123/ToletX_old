@@ -301,10 +301,6 @@ class UserinformationController extends Controller
             ]);
         }
 
-        // $same=Carbon::now()->diffInSeconds($phone->created_at);
-        // if($same >10 && $same->phone_number == $request->phone_number){
-        //   return redirect()->route('loginotp')->with('Failed','you have already limitation');
-        // }
 
         // send otp to mobile no using sms api
         return redirect()->route('verify.otp', ['phone' => $request->phone]);
