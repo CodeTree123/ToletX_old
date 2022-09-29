@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Basic Page Info -->
 	<meta charset="utf-8">
@@ -47,61 +47,61 @@
 						<thead>
 							<tr>
 								<th scope="col">Id</th>
-                <th scope="col">Post Type</th>
-                <th scope="col">Hotel Name</th>
-                <th scope="col">Address</th>
-                <th scope="col">Asking Rent/Cost + Service Charge</th>
-                <th scope="col">Room size</th>
-                <th scope="col">Utilities</th>
-                <th scope="col">Attached Toilet</th>
-                <th scope="col">Attached Varanda </th>
+								<th scope="col">Post Type</th>
+								<th scope="col">Hotel Name</th>
+								<th scope="col">Address</th>
+								<th scope="col">Asking Rent/Cost + Service Charge</th>
+								<th scope="col">Room size</th>
+								<th scope="col">Utilities</th>
+								<th scope="col">Attached Toilet</th>
+								<th scope="col">Attached Varanda </th>
 								<th scope="col">Hot water</th>
 								<th scope="col">A.C</th>
 								<th scope="col">WiFi</th>
 								<th scope="col">Cable TV</th>
 								<th scope="col">Laundry</th>
 								<th scope="col">Parking</th>
-                <th scope="col">Stair/Lift</th>
-                <th scope="col">Image</th>
-                <th scope="col">Action</th>
+								<th scope="col">Stair/Lift</th>
+								<th scope="col">Image</th>
+								<th scope="col">Action</th>
 							</tr>
 						</thead>
 						<tbody>
-              @foreach($lists as $list)
-              <tr>
-                <th scope="row">{{$list->id}}</th>
+							@foreach($lists as $list)
+							<tr>
+								<th scope="row">{{$list->id}}</th>
 								<td>{{$list->post_type}}</td>
 								<td>{{$list->hotel_name}}</td>
-                <td>{{$list->address}}</td>
-                <td>{{$list->price}}</td>
-                <td>{{$list->room_size}}</td>
-                <td>{{$list->utilities}}</td>
-                <td>{{$list->attached_toilet}}</td>
-                <td>{{$list->attached_varanda}}</td>
-                <td>{{$list->hot_water}}</td>
-                <td>{{$list->ac}}</td>
+								<td>{{$list->address}}</td>
+								<td>{{$list->price}}</td>
+								<td>{{$list->room_size}}</td>
+								<td>{{$list->utilities}}</td>
+								<td>{{$list->attached_toilet}}</td>
+								<td>{{$list->attached_varanda}}</td>
+								<td>{{$list->hot_water}}</td>
+								<td>{{$list->ac}}</td>
 								<td>{{$list->wifi}}</td>
 								<td>{{$list->cable_tv}}</td>
 								<td>{{$list->laundry}}</td>
-                <td>{{$list->parking}}</td>
-                <td>{{$list->lift}}</td>
+								<td>{{$list->parking}}</td>
+								<td>{{$list->lift}}</td>
 
 
-                <td>
-                <img src="{{ asset('public/uploads/rooms') }}/{{ $list->photo }}" alt="">
-                </td>
-                <td>
-                  <a href="{{ url('/room/edit/') }}/{{ $list->id }}" class=" btn-sm btn-primary">Edit</a>
-                  <hr>
-                  <a href="{{ url('room/delete') }}/{{ $list->id }}" onclick="confirmAction()" class=" btn-sm btn-danger">Delete</a>
-                </td>
-              </tr>
-          @endforeach
+								<td>
+									<img src="{{ asset('public/uploads/rooms') }}/{{ $list->photo }}" alt="">
+								</td>
+								<td>
+									<a href="{{ url('/room/edit/') }}/{{ $list->id }}" class=" btn-sm btn-primary">Edit</a>
+									<hr>
+									<a href="{{ url('room/delete') }}/{{ $list->id }}" onclick="confirmAction()" class=" btn-sm btn-danger">Delete</a>
+								</td>
+							</tr>
+							@endforeach
 
 						</tbody>
 					</table>
 
-      	</div>
+				</div>
 				<!-- basic table  End -->
 
 				<!-- Trashed basic table  Start -->
@@ -113,27 +113,27 @@
 						</div>
 
 					</div>
-					<table id="tblStocks"  class="table">
+					<table id="tblStocks" class="table">
 						<thead>
 							<tr>
 								<th scope="col">Id</th>
 								<th scope="col">Post Type</th>
-                <th scope="col">Hotel Name</th>
-                <th scope="col">Address</th>
-                <th scope="col">Asking Rent/Cost + Service Charge</th>
-                <th scope="col">Room size</th>
-                <th scope="col">Utilities</th>
-                <th scope="col">Attached Toilet</th>
-                <th scope="col">Attached Varanda </th>
+								<th scope="col">Hotel Name</th>
+								<th scope="col">Address</th>
+								<th scope="col">Asking Rent/Cost + Service Charge</th>
+								<th scope="col">Room size</th>
+								<th scope="col">Utilities</th>
+								<th scope="col">Attached Toilet</th>
+								<th scope="col">Attached Varanda </th>
 								<th scope="col">Hot water</th>
 								<th scope="col">A.C</th>
 								<th scope="col">WiFi</th>
 								<th scope="col">Cable TV</th>
 								<th scope="col">Laundry</th>
 								<th scope="col">Parking</th>
-                <th scope="col">Stair/Lift</th>
-                <th scope="col">Image</th>
-                <th scope="col">Action</th>
+								<th scope="col">Stair/Lift</th>
+								<th scope="col">Image</th>
+								<th scope="col">Action</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -142,29 +142,29 @@
 								<th scope="row">{{$trashed_list->id}}</th>
 								<td>{{$trashed_list->post_type}}</td>
 								<td>{{$trashed_list->hotel_name}}</td>
-                <td>{{$trashed_list->address}}</td>
-                <td>{{$trashed_list->price}}</td>
-                <td>{{$trashed_list->room_size}}</td>
-                <td>{{$trashed_list->utilities}}</td>
-                <td>{{$trashed_list->attached_toilet}}</td>
-                <td>{{$trashed_list->attached_varanda}}</td>
-                <td>{{$trashed_list->hot_water}}</td>
-                <td>{{$trashed_list->ac}}</td>
+								<td>{{$trashed_list->address}}</td>
+								<td>{{$trashed_list->price}}</td>
+								<td>{{$trashed_list->room_size}}</td>
+								<td>{{$trashed_list->utilities}}</td>
+								<td>{{$trashed_list->attached_toilet}}</td>
+								<td>{{$trashed_list->attached_varanda}}</td>
+								<td>{{$trashed_list->hot_water}}</td>
+								<td>{{$trashed_list->ac}}</td>
 								<td>{{$trashed_list->wifi}}</td>
 								<td>{{$trashed_list->cable_tv}}</td>
 								<td>{{$trashed_list->laundry}}</td>
-                <td>{{$trashed_list->parking}}</td>
-                <td>{{$trashed_list->lift}}</td>
+								<td>{{$trashed_list->parking}}</td>
+								<td>{{$trashed_list->lift}}</td>
 
 								<td>
-								<img src="{{ asset('uploads/rooms') }}/{{ $trashed_list->photo }}" alt="">
+									<img src="{{ asset('uploads/rooms') }}/{{ $trashed_list->photo }}" alt="">
 								</td>
 								<td>
 
 									<a href="{{ url('room/restore') }}/{{ $trashed_list->id }}" class=" btn-sm btn-success">Restore</a>
 								</td>
 							</tr>
-					@endforeach
+							@endforeach
 
 						</tbody>
 					</table>
@@ -172,26 +172,27 @@
 				</div>
 				<!-- basic table  End -->
 
-					<div class="collapse collapse-box" id="contextual-table">
-						<div class="code-box">
-							<div class="clearfix">
-								<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left"  data-clipboard-target="#contextual-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
-								<a href="#contextual-table" class="btn btn-primary btn-sm pull-right" rel="content-y"  data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
-							</div>
-							<pre><code class="xml copy-pre" id="contextual-table-code">
+				<div class="collapse collapse-box" id="contextual-table">
+					<div class="code-box">
+						<div class="clearfix">
+							<a href="javascript:;" class="btn btn-primary btn-sm code-copy pull-left" data-clipboard-target="#contextual-table-code"><i class="fa fa-clipboard"></i> Copy Code</a>
+							<a href="#contextual-table" class="btn btn-primary btn-sm pull-right" rel="content-y" data-toggle="collapse" role="button"><i class="fa fa-eye-slash"></i> Hide Code</a>
+						</div>
+						<pre><code class="xml copy-pre" id="contextual-table-code">
 
 							</code></pre>
-						</div>
 					</div>
 				</div>
-				<!-- Contextual classes End -->
 			</div>
-			<div class="footer-wrap pd-20 mb-20 card-box">
-				toletx By <a href="https://github.com/dropways" target="_blank">codetree</a>
-			</div>
+			<!-- Contextual classes End -->
+		</div>
+		<div class="footer-wrap pd-20 mb-20 card-box">
+			toletx By <a href="https://github.com/dropways" target="_blank">codetree</a>
 		</div>
 	</div>
+	</div>
 	<!-- js -->
-@include('Dashboard.js.js')
-</body>
+	@include('Dashboard.js.js')
+	</body>
+
 </html>

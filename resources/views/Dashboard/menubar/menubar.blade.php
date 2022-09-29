@@ -158,14 +158,6 @@
                 </li>
                 <li class="dropdown">
                     <a href="javascript:;" class="dropdown-toggle">
-                        <span class="micon dw dw-library"></span><span class="mtext">Gallery</span>
-                    </a>
-                    <ul class="submenu">
-                        <li><a href="{{route('list_gallery')}}">List Gallery</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:;" class="dropdown-toggle">
                         <span class="micon dw dw-library"></span><span class="mtext">Exibution Center</span>
                     </a>
                     <ul class="submenu">
@@ -178,7 +170,7 @@
                         <span class="micon dw dw-library"></span><span class="mtext">Camp Site</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="{{route('list_playground')}}">List Play Ground</a></li>
+                        <li><a href="{{route('list_playground')}}">List Camp Site</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

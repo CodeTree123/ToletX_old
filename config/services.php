@@ -31,8 +31,8 @@ return [
     ],
 
         'google' => [
-      'client_id' => env('GOOGLE_CLIENT_ID'),
-      'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+      'client_id' => env('920484993563-c46dad4vl89cdv29jisuvuoikkh2i5vg.apps.googleusercontent.com'),
+      'client_secret' => env('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'),
       'redirect' => 'https://toletx.com/login/google/callback',
     ],
 

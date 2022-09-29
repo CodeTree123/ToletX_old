@@ -39,21 +39,16 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-
-
     // Google login
     public function redirectToGoogle()
     {
         return Socialite::driver('google')->stateless()->redirect();
     }
-
     // Google callback
     public function handleGoogleCallback()
     {
         $user = Socialite::driver('google')->stateless()->user();
-
         $this->_registerOrLoginUser($user);
-
         // Return home after login
         return redirect()->route('home');
     }
@@ -63,14 +58,11 @@ class LoginController extends Controller
     {
         return Socialite::driver('facebook')->redirect();
     }
-
     // Facebook callback
     public function handleFacebookCallback()
     {
         $user = Socialite::driver('facebook')->user();
-
         $this->_registerOrLoginUser($user);
-
         // Return home after login
         return redirect()->route('home');
     }
