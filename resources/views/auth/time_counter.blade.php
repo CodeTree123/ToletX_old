@@ -5,14 +5,16 @@
 <style>
 p#demo {
   text-align: center;
-  font-size: 60px;
+  font-size: 15px;
   margin-top: 0px;
 }
 </style>
 </head>
 <body>
-<h1>Please verify your Otp within 1 minuets</h1>
-<p id="demo"></p>
+<div class="">
+  <!-- <h1 class="me-3">Please verify your Otp within 1 minuets</h1> -->
+  <p id="demo"></p>
+</div>
 
 <script>
 // Set the date we're counting down to
