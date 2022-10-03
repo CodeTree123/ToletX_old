@@ -41,7 +41,8 @@ class CreateLandsTable extends Migration
             $table->string('photo6')->nullable();
             $table->string('video')->nullable();
             $table->boolean('active')->nullable();
-            $table->SoftDeletes();
+          $table->bigInteger('table_api')->default(13);
+          $table->SoftDeletes();
             $table->timestamps();
         });
     }

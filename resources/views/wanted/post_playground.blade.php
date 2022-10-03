@@ -59,15 +59,15 @@
                 <div class="row">
                     <div class="col-4 mb-3 ">
                         <label for="title_wanted" class="form-label me-2 fw-bold">Camp Site Name</label>
-                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Camp Site Name">
+                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Camp Site Name">
                     </div>
                     <div class=" col-4 mb-3">
-                        <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
-                        <input name="date" type="date" class="form-control" id="date_wanted" onfocus="this.showPicker()">
+                        <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
+                        <input name="date" type="date" class="form-control" id="date_rented" onfocus="this.showPicker()">
                     </div>
                     <div class=" col-4 mb-3">
-                        <label for="phone_wanted" class="form-label me-2 fw-bold">Mobile</label>
-                        <select id="phone_wanted" class="form-select" name="phone">
+                        <label for="phone_rented" class="form-label me-2 fw-bold">Mobile</label>
+                        <select id="phone_rented" class="form-select" name="phone">
                             <option value="">Choose number</option>
                             @foreach($lists as $list)
                             <option value="{{$list->phone}}">{{$list->phone}}</option>
@@ -76,20 +76,20 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Month</label>
-                        <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
+                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <input name="price" type="number" class="form-control" id="price_rented" placeholder="Enter Price">
                     </div>
                     <div class="col-4 mb-3 ">
-                        <label for="area_wanted" class="form-label me-2 fw-bold">Camp area</label>
-                        <input name="area" type="number" class="form-control" id="area_wanted" placeholder="Enter Camp area">
+                        <label for="area_rented" class="form-label me-2 fw-bold">Camp area</label>
+                        <input name="area" type="number" class="form-control" id="area_rented" placeholder="Enter Camp area">
                     </div>
                     <div class="col-4 mb-3 ">
-                        <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
-                        <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">
+                        <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
+                        <input name="address" type="text" class="form-control" id="address_rented" placeholder="Enter Address">
                     </div>
                     <div class="col-12 mb-3 ">
-                        <label for="description_wanted" class="form-label me-2 fw-bold"> Description </label>
-                        <textarea name="description" type="text" class="form-control" id="description_wanted" rows="3" placeholder="Enter Description"></textarea>
+                        <label for="description_rented" class="form-label me-2 fw-bold"> Description </label>
+                        <textarea name="description" type="text" class="form-control" id="description_rented" rows="3" placeholder="Enter Description"></textarea>
                     </div>
                     <div class="col-4 mb-3 ">
                         <h2 class="fw-bold mb-3">Ameneties</h2>
@@ -237,38 +237,38 @@
                         <h2 class="fw-bold mb-3">Ameneties</h2>
                         <div class="row ms-5 ">
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="shed_rented" name="shed">
-                            <label class="form-check-label" for="shed_rented">
+                            <input class="form-check-input" type="checkbox" id="shed_wanted" name="shed">
+                            <label class="form-check-label" for="shed_wanted">
                                 Shed
                             </label>
                         </div>
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="change_room_rented" name="change_room">
-                            <label class="form-check-label" for="change_room_rented">
+                            <input class="form-check-input" type="checkbox" id="change_room_wanted" name="change_room">
+                            <label class="form-check-label" for="change_room_wanted">
                                 Changing Room
                             </label>
                         </div>
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="Toilet_rented" name="toilet">
-                            <label class="form-check-label" for="Toilet_rented">
+                            <input class="form-check-input" type="checkbox" id="Toilet_wanted" name="toilet">
+                            <label class="form-check-label" for="Toilet_wanted">
                                 Toilet
                             </label>
                         </div>
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="sports_rented" name="sports">
-                            <label class="form-check-label" for="sports_rented">
+                            <input class="form-check-input" type="checkbox" id="sports_wanted" name="sports">
+                            <label class="form-check-label" for="sports_wanted">
                                 sports Failities
                             </label>
                         </div>
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="Gym_rented" name="gym">
-                            <label class="form-check-label" for="Gym_rented">
+                            <input class="form-check-input" type="checkbox" id="Gym_wanted" name="gym">
+                            <label class="form-check-label" for="Gym_wanted">
                                Gym
                             </label>
                         </div>
                         <div class="col-2 form-check mb-2">
-                            <input class="form-check-input" type="checkbox" id="Parking_rented" name="drainage_system">
-                            <label class="form-check-label" for="Parking_rented">
+                            <input class="form-check-input" type="checkbox" id="Parking_wanted" name="drainage_system">
+                            <label class="form-check-label" for="Parking_wanted">
                                Parking
                             </label>
                         </div>

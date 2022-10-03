@@ -8,7 +8,6 @@
 <div class="snippet-body">
     <div class="items">
         <?php
-
         use App\Models\Hotel;
         use App\Models\Room;
         use App\Models\Flat;
@@ -31,7 +30,6 @@
         use App\Models\Ghat;
         use App\Models\Building;
         use App\Models\Picnic_Spot;
-
         $rooms = Room::all();
         $bilboards = Bilboard::all();
         $buildings = building::all();
@@ -559,7 +557,6 @@
 
     <script type="text/Javascript">
         $(document).ready(function(){
-
   $('.items').slick({
       infinite: true,
       lazyLoad: 'ondemand',
@@ -591,11 +588,8 @@
         slidesToScroll: 1
       }
     }
-
   ]
-
       });
-
   });
 </script>
 </div>

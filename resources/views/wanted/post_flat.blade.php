@@ -172,8 +172,8 @@
                                 Cable Tv
                             </label>
                         </div>
-                       
-                        
+
+
                         <div class="form-check ms-5 mb-2">
                             <input class="form-check-input" type="checkbox" id="wifi_rented" name="wifi">
                             <label class="form-check-label" for="wifi_rented">
@@ -201,41 +201,41 @@
 
                     </div>
                     <div class="col-8">
-                        <h2 class="fw-bold mb-3">Gallery</h2>
-                        <label for="inputGroupFile02" class="d-block"> Photo 1</label>
+                        <h2 class="fw-bold mb-3">Gallery Section</h2>
+                        <label for="photo_rented" class="d-block"> Photo 1</label>
                         <div class="input-group mb-3 ">
 
-                            <input type="file" class="form-control" id="inputGroupFile02" placeholder="asd">
+                            <input type="file" class="form-control" name="photo" id="photo_rented" placeholder="asd">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 2</label>
+                        <label for="photo1_rented" class="d-block"> Photo 2</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo1" id="photo1_rented">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 3</label>
+                        <label for="photo2_rented" class="d-block"> Photo 3</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo2" id="photo2_rented">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 3</label>
+                        <label for="photo3_rented" class="d-block"> Photo 4</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo3" id="photo3_rented">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 3</label>
+                        <label for="photo4_rented" class="d-block"> Photo 5</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo4" id="photo4_rented">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 3</label>
+                        <label for="photo5_rented" class="d-block"> Photo 6</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo5" id="photo5_rented">
                         </div>
 
-                        <label for="inputGroupFile02" class="d-block"> Photo 3</label>
+                        <label for="photo6_rented" class="d-block"> Photo 7</label>
                         <div class="input-group mb-3">
-                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <input type="file" class="form-control" name="photo6" id="photo6_rented">
                         </div>
 
                     </div>

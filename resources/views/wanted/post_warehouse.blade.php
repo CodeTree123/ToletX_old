@@ -347,50 +347,50 @@
                         <div class="row ms-5">
 
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="elect_rented" name="electricity">
-                                <label class="form-check-label" for="elect_rented">
+                                <input class="form-check-input" type="checkbox" id="elect_wanted" name="electricity">
+                                <label class="form-check-label" for="elect_wanted">
                                     Electricity
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="gas_rented" name="gas">
-                                <label class="form-check-label" for="gas_rented">
+                                <input class="form-check-input" type="checkbox" id="gas_wanted" name="gas">
+                                <label class="form-check-label" for="gas_wanted">
                                     Gas
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="water_rented" name="water">
-                                <label class="form-check-label" for="water_rented">
+                                <input class="form-check-input" type="checkbox" id="water_wanted" name="water">
+                                <label class="form-check-label" for="water_wanted">
                                     Water
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="ac_rented" name="ac">
-                                <label class="form-check-label" for="ac_rented">
+                                <input class="form-check-input" type="checkbox" id="ac_wanted" name="ac">
+                                <label class="form-check-label" for="ac_wanted">
                                     A.C
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="drainage_system_rented" name="drainage_system">
-                                <label class="form-check-label" for="drainage_system_rented">
+                                <input class="form-check-input" type="checkbox" id="drainage_system_wanted" name="drainage_system">
+                                <label class="form-check-label" for="drainage_system_wanted">
                                     Drainage System
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="lift_rented" name="lift">
-                                <label class="form-check-label" for="lift_rented">
+                                <input class="form-check-input" type="checkbox" id="lift_wanted" name="lift">
+                                <label class="form-check-label" for="lift_wanted">
                                     Lift
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="fire_safety_rented" name="fire_safety">
-                                <label class="form-check-label" for="fire_safety_rented">
+                                <input class="form-check-input" type="checkbox" id="fire_safety_wanted" name="fire_safety">
+                                <label class="form-check-label" for="fire_safety_wanted">
                                     Fire Exit
                                 </label>
                             </div>
                             <div class="form-check ms-5 mb-2">
-                                <input class="form-check-input" type="checkbox" id="parking_rented" name="parking">
-                                <label class="form-check-label" for="parking_rented">
+                                <input class="form-check-input" type="checkbox" id="parking_wanted" name="parking">
+                                <label class="form-check-label" for="parking_wanted">
                                     Parking
                                 </label>
                             </div>

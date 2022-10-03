@@ -325,8 +325,8 @@
                         </select>
                     </div>
                     <div class="col-4 mb-3 ">
-                        <label for="s_charge_rented" class="form-label me-2 fw-bold">Service Charge</label>
-                        <input name="s_charge" type="number" class="form-control" id="s_charge_rented" placeholder="Enter Service Charge">
+                        <label for="s_charge_wanted" class="form-label me-2 fw-bold">Service Charge</label>
+                        <input name="s_charge" type="number" class="form-control" id="s_charge_wanted" placeholder="Enter Service Charge">
                     </div>
                     <div class="col-4 mb-3 ">
                         <label for="Seating_wanted" class="form-label me-2 fw-bold">No of Seating Arrangement</label>

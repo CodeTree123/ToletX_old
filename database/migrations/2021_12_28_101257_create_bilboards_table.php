@@ -36,6 +36,7 @@ class CreateBilboardsTable extends Migration
             $table->string('photo6')->nullable();
             $table->string('video')->nullable();
             $table->boolean('active')->nullable();
+            $table->bigInteger('table_api')->default(22);
             $table->SoftDeletes();
             $table->timestamps();
         });

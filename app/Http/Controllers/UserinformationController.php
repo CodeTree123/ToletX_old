@@ -53,10 +53,9 @@ class UserinformationController extends Controller
 
     public function logout()
     {
-       Auth::logout();
+        Auth::logout();
 
-        return redirect()->route('index')->with('massage','Admin Logout Sucsessfully');
-
+        return redirect()->route('index')->with('massage', 'Admin Logout Sucsessfully');
     }
     public function login_new(Request $request)
     {
@@ -67,10 +66,8 @@ class UserinformationController extends Controller
             if ($user == 1) {
                 return redirect()->route('admin_index');
             } else {
-                return Redirect::HOME();
+                return redirect()->route('index');
             }
-        } else {
-            return Redirect::back();
         }
     }
 
@@ -92,16 +89,6 @@ class UserinformationController extends Controller
             return redirect()->route('registration', ['phone' => $request->phone]);
         }
         return redirect()->back();
-        // $user  = User::where([['phone','=',request('phone')],['otp','=',request('otp')]])->first();
-        // if( $user){
-        //     Auth::login($user, true);
-        //     User::where('phone','=',$request->phone)->update(['otp' => null]);
-        //     return redirect()->route('registration', ['phone' => $request->phone]);
-        // }
-        // else{
-        //     return redirect()->back();
-        // }
-
     }
 
 
@@ -109,16 +96,13 @@ class UserinformationController extends Controller
     {
 
         $custom_id = User::latest('id')->first();
-
         if (empty($custom_id)) {
             $k = 0;
-            //dd($k);
         } else {
             $k = $custom_id->id;
         }
         $k++;
         $i = $k;
-        //dd($i);
         $n = $request->name;
         $date = date('dmY');
         $view = $n . $date . $i;
@@ -135,11 +119,9 @@ class UserinformationController extends Controller
         $phone = Phoneotp::where(['phone_number' => $request->phone, 'isverified' => 1])->exists();
         if (!$phone) {
             return redirect()->back()->withErrors(['msg' => 'Phone is not verified']);
-            //error message
         }
 
         $check = User::where('phone', $request->phone)->first();
-
         if ($check) {
             return back()->with('success2', 'You Already have account');
         } else {
@@ -191,7 +173,6 @@ class UserinformationController extends Controller
 
 
             if (Auth::attempt(['phone' => request('phone'), 'password' => request('password')])) {
-                // return Redirect::index();
                 return redirect()->route('index')->with('success', 'Please Complete your profile information.');
             } else {
                 return Redirect::back();
@@ -203,7 +184,7 @@ class UserinformationController extends Controller
     public function list_user()
     {
 
-        $users = User::where('role_id',2)->get();
+        $users = User::where('role_id', 2)->get();
 
         return view('user.user_list', compact('users'));
     }
@@ -216,9 +197,6 @@ class UserinformationController extends Controller
 
     function user_update(Request $request)
     {
-
-
-
         $auth_image = User::findOrFail($request->id)->update([
             'name' => $request->name,
             'email' => $request->email,
@@ -229,13 +207,8 @@ class UserinformationController extends Controller
             'father_name' => $request->father_name,
             'mother_name' => $request->mother_name,
             'gender' => $request->gender,
-
         ]);
-
-
-
         if ($request->hasFile('photo')) {
-            //dd('ok');
             $photo = $request->photo;
             $photoName = $request->id . '.' . $photo->getClientOriginalExtension();
             if (User::findOrFail($request->id)) {
@@ -248,12 +221,6 @@ class UserinformationController extends Controller
                 Image::make($photo)->resize(400, 450)->save(base_path("public/uploads/registers/" . $photoName), 100);
             }
         }
-
-
-
-
-
-
         return redirect()->route('profile')->with('success', 'User information have been successfully Updated.');
     }
 
@@ -300,9 +267,6 @@ class UserinformationController extends Controller
                 'otp' => $otp
             ]);
         }
-
-
-        // send otp to mobile no using sms api
         return redirect()->route('verify.otp', ['phone' => $request->phone]);
         return response()->json([$user], 200);
     }
@@ -315,51 +279,24 @@ class UserinformationController extends Controller
     {
         return view('auth.verify-otp');
     }
-
-
-
-    function post_user_information(Request $request)
+    public function admin_verify($id)
     {
-
-        $user = UserInformation::insertGetId([
-            'name' => $request->name,
-            'ncard_number' => $request->ncard_number,
-            'father_name' => $request->father_name,
-            'mother_name' => $request->mother_name,
-            'address' => $request->address,
-            'date_of_birth' => $request->date_of_birth,
-            'p_identity' => $request->p_identity,
-            'gender' => $request->gender,
-            'created_at'   => Carbon::now()
-        ]);
-        // if ($request->hasFile('photo')) {
-        //     $photo_upload     =  $request ->photo;
-        //     $photo_extension  =  $photo_upload -> getClientOriginalExtension();
-        //     $photo_name       =  "i_need_user_". $user . "." . $photo_extension;
-        //     Image::make($photo_upload)->resize(100,100)->save(base_path('public/uploads/users/'.$photo_name),100);
-        //     UserRegistration::find($user)->update([
-        //     'photo'          => $photo_name,
-        //         ]);
-        //       }
-        return back()->with('success', 'User have successfully registered.');
-    }
-    public function admin_verify($id){
         $getStatus = User::find($id);
-        if($getStatus->admin_verify == 1){
+        if ($getStatus->admin_verify == 1) {
             $status = 0;
-        }else{
+        } else {
             $status = 1;
         }
-        if($status == 1){
-            User::where('id','=',$id)->update(['admin_verify'=>$status]);
-        }else{
-            User::where('id','=',$id)->update(['admin_verify'=>$status]);
+        if ($status == 1) {
+            User::where('id', '=', $id)->update(['admin_verify' => $status]);
+        } else {
+            User::where('id', '=', $id)->update(['admin_verify' => $status]);
         }
         return back();
     }
     public function delete_user($id)
     {
         User::find($id)->delete();
-        return redirect()->back()->with('massage','User deleted Successfully');
+        return redirect()->back()->with('massage', 'User deleted Successfully');
     }
 }

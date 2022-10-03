@@ -15,11 +15,11 @@
 
                 <div class="card-body otp_card_body">
                     <form method="POST" action="{{ route('send.otp') }}">
-                        @csrf
+                       @csrf
                         <div class="form-group d-flex justify-content-center align-items-center">
-                           
+
                             <div class="d-flex justify-content-around align-items-center">
-                                <label for="phone" class=" me-3">{{ __('Mobile ') }}</label>  
+                                <label for="phone" class=" me-3">{{ __('Mobile') }}</label>
                                 <input id="phone" type="number" class="form-control msform" name="phone" required autofocus>
                             </div>
                             <div class="ms-4">
@@ -27,7 +27,7 @@
 
                             </div>
                         </div>
-        
+
                     </form>
 
 
@@ -39,3 +39,4 @@
 
 
 @endsection
+

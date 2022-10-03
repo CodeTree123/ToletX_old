@@ -176,15 +176,15 @@ class FrontendController extends Controller
         return view('frontend.room',compact('lists'));
     }
     function flat(){
-        $lists=Room::all();
+        $lists=Flat::all();
         return view('frontend.flat',compact('lists'));
     }
     function building(){
-        $lists=Room::all();
+        $lists=Building::all();
         return view('frontend.building',compact('lists'));
     }
     function parking(){
-        $lists=Room::all();
+        $lists=Parking_Spot::all();
         return view('frontend.parking',compact('lists'));
     }
     function hotel(){
@@ -192,63 +192,63 @@ class FrontendController extends Controller
         return view('frontend.hotel',compact('lists'));
     }
     function hostel(){
-        $lists=Room::all();
+        $lists=Hotel::all();
         return view('frontend.hostel',compact('lists'));
     }
     function resort(){
-        $lists=Room::all();
+        $lists=Restaurant::all();
         return view('frontend.resort',compact('lists'));
     }
     function office(){
-        $lists=Room::all();
+        $lists=Office::all();
         return view('frontend.office',compact('lists'));
     }
     function shop(){
-        $lists=Room::all();
+        $lists=Shop::all();
         return view('frontend.shop',compact('lists'));
     }
     function community_hall(){
-        $lists=Room::all();
+        $lists=Community_Center::all();
         return view('frontend.community_hall',compact('lists'));
     }
     function factory(){
-        $lists=Room::all();
+        $lists=Factory::all();
         return view('frontend.factory',compact('lists'));
     }
     function warehouse(){
-        $lists=Room::all();
+        $lists=Warehouse::all();
         return view('frontend.warehouse',compact('lists'));
     }
     function land(){
-        $lists=Room::all();
+        $lists=Land::all();
         return view('frontend.land',compact('lists'));
     }
     function pond(){
-         $lists=Room::all();
+         $lists=Pond::all();
         return view('frontend.pond',compact('lists'));
     }
     function swimming_pool(){
-        $lists=Room::all();
+        $lists=Swimming_Pool::all();
         return view('frontend.swimming_pool',compact('lists'));
     }
     function playground(){
-        $lists=Room::all();
+        $lists=Play_ground::all();
         return view('frontend.playground',compact('lists'));
     }
     function shooting_spot(){
-        $lists=Room::all();
+        $lists=Shooting_Spot::all();
         return view('frontend.shooting_spot',compact('lists'));
     }
     function exhibition_center(){
-        $lists=Room::all();
+        $lists=Exibution_Center::all();
         return view('frontend.exhibition_center',compact('lists'));
     }
     function rooftop(){
-        $lists=Room::all();
+        $lists=Rooftop::all();
         return view('frontend.rooftop',compact('lists'));
     }
     function bilboard(){
-        $lists=Room::all();
+        $lists=Bilboard::all();
         return view('frontend.bilboard',compact('lists'));
     }
     function login_form(){

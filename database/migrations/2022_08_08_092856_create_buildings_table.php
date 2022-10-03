@@ -45,6 +45,8 @@ class CreateBuildingsTable extends Migration
             $table->string('photo6')->nullable();
             $table->string('video')->nullable();
             $table->boolean('active');
+            $table->bigInteger('table_api')->default(3);
+
             $table->timestamps();
         });
     }

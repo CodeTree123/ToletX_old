@@ -7,7 +7,10 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Laravel\Socialite\Facades\Socialite;
 use App\Models\User;
-use Auth;
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+
 class LoginController extends Controller
 {
     /*
@@ -42,14 +45,28 @@ class LoginController extends Controller
     // Google login
     public function redirectToGoogle()
     {
-        return Socialite::driver('google')->stateless()->redirect();
+        return Socialite::driver('google')->redirect();
     }
     // Google callback
-    public function handleGoogleCallback()
+    public function callbackFromGoogle()
     {
-        $user = Socialite::driver('google')->stateless()->user();
-        $this->_registerOrLoginUser($user);
-        // Return home after login
+        try {
+            $user = Socialite::driver('facebook')->user();
+            dd($user);
+            $saveUser = User::updateOrCreate([
+                'facebook_id' => $user->getId(),
+            ], [
+                'name' => $user->getName(),
+                'email' => $user->getEmail(),
+                'password' => Hash::make($user->getName() . '@' . $user->getId())
+            ]);
+
+            Auth::loginUsingId($saveUser->id);
+
+            return redirect()->route('home');
+        } catch (\Throwable $th) {
+            throw $th;
+        }
         return redirect()->route('home');
     }
 

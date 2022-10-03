@@ -44,6 +44,8 @@ class CreateOfficesTable extends Migration
             $table->string('photo6')->nullable();
             $table->string('video')->nullable();
             $table->boolean('active')->nullable();
+            $table->bigInteger('table_api')->default(8);
+
             $table->SoftDeletes();
             $table->timestamps();
         });

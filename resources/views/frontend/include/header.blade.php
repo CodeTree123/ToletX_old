@@ -33,7 +33,6 @@
                     var x = document.getElementById("mode_indicator");
                     if (x.innerHTML === "Dark Mode") {
                         x.innerHTML = "Lite Mode";
-
                     } else if (x.innerHTML === "Lite Mode") {
                         x.innerHTML = "Dark Mode";
                     }
@@ -45,11 +44,9 @@
                 }
                 checkStatus()
                 function checkStatus() {
-
                     if (localStorage.getItem('dark_switch_activated') === "true") {
                         liteSwitch.checked = true;
                         fullbody.setAttribute("data-theme", "lite");
-
                     } else {}
                 }
                 function changeStatus() {
@@ -295,9 +292,7 @@
                 if (toastTrigger) {
                     toastTrigger.addEventListener('click', function() {
                         var toast = new bootstrap.Toast(toastLiveExample)
-
                         toast.show()
-
                     })
                 }
             </script>
@@ -326,7 +321,6 @@
 
 <script>
     let autocomplete;
-
     function initAutocomplete() {
         autocomplete = new google.maps.places.Autocomplete(
             document.getElementById('autocomplete'), {
@@ -335,7 +329,6 @@
                     'country': ['AU']
                 },
                 fields: ['name']
-
             });
     }
 </script>

@@ -1,11 +1,9 @@
-    <!doctype html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="icon" type="image/x-icon" href="{{asset('Frontend/assets/img/header/favicon_io/android-chrome-192x192.png')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +29,6 @@
     <title>ToletX</title>
 </head>
 <body>
-
     <style>
     .login-form {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -89,18 +86,10 @@
                 </p>
             </div>
         </div>
-
-
-
-
-
 </body>
-
-
     <script>
     (function($) {
         "use strict";
-
         $(".toggle-password").click(function() {
             $(this).toggleClass("fa-eye fa-eye-slash");
             var input = $($(this).attr("toggle"));

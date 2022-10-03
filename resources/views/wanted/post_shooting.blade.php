@@ -222,16 +222,16 @@
                 <input class="form-control" type="hidden" id="post_want" name="post_type">
                 <div class="row">
                 <div class="col-4 mb-3 ">
-                        <label for="title_rented" class="form-label me-2 fw-bold">Shooting Spot Name</label>
-                        <input name="title" type="text" class="form-control" id="title_rented" placeholder="Enter Shooting Spot Name">
+                        <label for="title_wanted" class="form-label me-2 fw-bold">Shooting Spot Name</label>
+                        <input name="title" type="text" class="form-control" id="title_wanted" placeholder="Enter Shooting Spot Name">
                     </div>
                     <div class=" col-4 mb-3">
-                        <label for="date_rented" class="form-label me-2 fw-bold">Date</label>
-                        <input name="date" type="date" class="form-control" id="date_rented" onfocus="this.showPicker()">
+                        <label for="date_wanted" class="form-label me-2 fw-bold">Date</label>
+                        <input name="date" type="date" class="form-control" id="date_wanted" onfocus="this.showPicker()">
                     </div>
                     <div class=" col-4 mb-3">
-                        <label for="phone_rented" class="form-label me-2 fw-bold">Mobile</label>
-                        <select id="phone_rented" class="form-select" name="phone">
+                        <label for="phone_wanted" class="form-label me-2 fw-bold">Mobile</label>
+                        <select id="phone_wanted" class="form-select" name="phone">
                             <option value="">Choose number</option>
                             @foreach($lists as $list)
                             <option value="{{$list->phone}}">{{$list->phone}}</option>
@@ -240,24 +240,24 @@
                     </div>
 
                     <div class="col-4 mb-3 ">
-                        <label for="price_rented" class="form-label me-2 fw-bold">Rent Per Month</label>
-                        <input name="price" type="number" class="form-control" id="price_rented" placeholder="Enter Price">
+                        <label for="price_wanted" class="form-label me-2 fw-bold">Rent Per Month</label>
+                        <input name="price" type="number" class="form-control" id="price_wanted" placeholder="Enter Price">
                     </div>
                     <div class="col-8 mb-3 ">
-                        <label for="address_rented" class="form-label me-2 fw-bold">Address</label>
-                        <input name="address" type="text" class="form-control" id="address_rented" placeholder="Enter Address">
+                        <label for="address_wanted" class="form-label me-2 fw-bold">Address</label>
+                        <input name="address" type="text" class="form-control" id="address_wanted" placeholder="Enter Address">
                     </div>
                     <div class="col-4 mb-3 ">
-                        <label for="floor_size_rented" class="form-label me-2 fw-bold">Spot Area</label>
-                        <input name="floor_area" type="text" class="form-control" id="floor_size_rented" placeholder="Enter Spot Area">
+                        <label for="floor_size_wanted" class="form-label me-2 fw-bold">Spot Area</label>
+                        <input name="floor_area" type="text" class="form-control" id="floor_size_wanted" placeholder="Enter Spot Area">
                     </div>
                     <div class="col-4 mb-3 ">
-                        <label for="road_width_rented" class="form-label me-2 fw-bold">Road Width</label>
-                        <input name="road_width" type="number" class="form-control" id="road_width_rented" placeholder="Enter Road Width">
+                        <label for="road_width_wanted" class="form-label me-2 fw-bold">Road Width</label>
+                        <input name="road_width" type="number" class="form-control" id="road_width_wanted" placeholder="Enter Road Width">
                     </div>
                     <div class="col-12 mb-3 ">
-                        <label for="description_rented" class="form-label me-2 fw-bold">Description</label>
-                        <textarea name="description" type="text" class="form-control" id="description_rented" rows="3" placeholder="Enter Description"></textarea>
+                        <label for="description_wanted" class="form-label me-2 fw-bold">Description</label>
+                        <textarea name="description" type="text" class="form-control" id="description_wanted" rows="3" placeholder="Enter Description"></textarea>
                     </div>
                     <div class="col-12 mb-3 ">
                         <h2 class="fw-bold mb-3">Ameneties</h2>

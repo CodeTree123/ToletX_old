@@ -129,7 +129,7 @@
                             </label>
                         </div>
                         <div class="form-check ms-5 mb-2">
-                            <input class="form-check-input" type="checkbox" id="attatched_toilet_rented" name="attatched_toilet">
+                            <input class="form-check-input" type="checkbox" id="attatched_toilet_rented" name="attached_toilet">
                             <label class="form-check-label" for="attatched_toilet_rented">
                                 Attached Toilet
                             </label>
@@ -152,7 +152,7 @@
                                 Cable Tv
                             </label>
                         </div>
-                       
+
                         <div class="form-check ms-5 mb-2">
                             <input class="form-check-input" type="checkbox" id="gen_rented" name="generator">
                             <label class="form-check-label" for="gen_rented">
@@ -303,54 +303,54 @@
                         <h2 class="fw-bold mb-3">Ameneties</h2>
                         <div class="row ms-5 ">
                         <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="electricity_rented" name="electricity">
-                                <label class="form-check-label" for="electricity_rented">
+                                <input class="form-check-input" type="checkbox" id="electricity_wanted" name="electricity">
+                                <label class="form-check-label" for="electricity_wanted">
                                     Electricity
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="gas_rented" name="gas">
-                                <label class="form-check-label" for="gas_rented">
+                                <input class="form-check-input" type="checkbox" id="gas_wanted" name="gas">
+                                <label class="form-check-label" for="gas_wanted">
                                     Gas
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="Water_rented" name="water">
-                                <label class="form-check-label" for="Water_rented">
+                                <input class="form-check-input" type="checkbox" id="Water_wanted" name="water">
+                                <label class="form-check-label" for="Water_wanted">
                                     Water
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="furnished_rented" name="furnished">
-                                <label class="form-check-label" for="furnished_rented">
+                                <input class="form-check-input" type="checkbox" id="furnished_wanted" name="furnished">
+                                <label class="form-check-label" for="furnished_wanted">
                                     Furniture
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="attatched_toilet_rented" name="attatched_toilet">
-                                <label class="form-check-label" for="attatched_toilet_rented">
+                                <input class="form-check-input" type="checkbox" id="attatched_toilet_wanted" name="attached_toilet">
+                                <label class="form-check-label" for="attatched_toilet_wanted">
                                     Attached Toilet
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="hot_water_rented" name="hot_water">
-                                <label class="form-check-label" for="hot_water_rented">
+                                <input class="form-check-input" type="checkbox" id="hot_water_wanted" name="hot_water">
+                                <label class="form-check-label" for="hot_water_wanted">
                                 Geyser
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="ac_rented" name="ac">
-                                <label class="form-check-label" for="ac_rented">
+                                <input class="form-check-input" type="checkbox" id="ac_wanted" name="ac">
+                                <label class="form-check-label" for="ac_wanted">
                                     A.C
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="cabel_tv_rented" name="cabel_tv">
-                                <label class="form-check-label" for="cabel_tv_rented">
+                                <input class="form-check-input" type="checkbox" id="cabel_tv_wanted" name="cabel_tv">
+                                <label class="form-check-label" for="cabel_tv_wanted">
                                     Cable Tv
                                 </label>
                             </div>
-                            
+
                             <div class="col-2 form-check mb-2">
                                 <input class="form-check-input" type="checkbox" id="gen_wanted" name="generator">
                                 <label class="form-check-label" for="gen_wanted">
@@ -358,27 +358,27 @@
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="wifi_rented" name="wifi">
-                                <label class="form-check-label" for="wifi_rented">
+                                <input class="form-check-input" type="checkbox" id="wifi_wanted" name="wifi">
+                                <label class="form-check-label" for="wifi_wanted">
                                     Wifi
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="laundry_rented" name="laundry">
-                                <label class="form-check-label" for="laundry_rented">
+                                <input class="form-check-input" type="checkbox" id="laundry_wanted" name="laundry">
+                                <label class="form-check-label" for="laundry_wanted">
                                     Laundry
                                 </label>
                             </div>
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="lift_rented" name="lift">
-                                <label class="form-check-label" for="lift_rented">
+                                <input class="form-check-input" type="checkbox" id="lift_wanted" name="lift">
+                                <label class="form-check-label" for="lift_wanted">
                                     Lift
                                 </label>
                             </div>
 
                             <div class="col-2 form-check mb-2">
-                                <input class="form-check-input" type="checkbox" id="parking_rented" name="parking">
-                                <label class="form-check-label" for="parking_rented">
+                                <input class="form-check-input" type="checkbox" id="parking_wanted" name="parking">
+                                <label class="form-check-label" for="parking_wanted">
                                     Parking
                                 </label>
                             </div>

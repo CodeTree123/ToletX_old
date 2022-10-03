@@ -9,7 +9,9 @@
               <div class="card-header">Test</div>
                 <div class="card-body">
 		          <div class="card">
-                    <div class="card-header"><b>{{ $searchResults->count() }} results found for "{{ request('query') }}"</b></div>
+                    <div class="card-header">
+
+                    <b>{{ $searchResults->count() }} results found for "{{ request('query') }}"</b></div>
 
                     <div class="card-body">
 

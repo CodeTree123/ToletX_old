@@ -49,27 +49,12 @@ class DashboardController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
 
-    function index()
-    {
-
-        return view('index');
-    }
-
     function admin_index()
     {
         $user = User::all()->count();
         return view('Dashboard.admin_index', compact('user'));
     }
 
-    function custom_login()
-    {
-        return view('Dashboard.custom_login.login');
-    }
-
-    function custom_register()
-    {
-        return view('Dashboard.custom_login.register');
-    }
 
     function add_hotel()
     {
@@ -834,10 +819,7 @@ class DashboardController extends Controller
     }
 
     //begin room
-    function add_room()
-    {
-        return view('Dashboard.room.add_room');
-    }
+
     function list_room()
     {
         $lists = Room::all();

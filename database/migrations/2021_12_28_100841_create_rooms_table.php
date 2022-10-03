@@ -47,6 +47,7 @@ class CreateRoomsTable extends Migration
           $table->string('photo6')->nullable();
           $table->string('video')->nullable();
           $table->boolean('active')->nullable();
+          $table->bigInteger('table_api')->default(1);
           $table->unsignedBigInteger('guest_count')->nullable();
           $table->SoftDeletes();
           $table->timestamps();

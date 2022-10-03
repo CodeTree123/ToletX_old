@@ -255,7 +255,7 @@
                     </div>
                     <div class="col-12 mb-3 ">
                         <label for="description_wanted" class="form-label me-2 fw-bold">Description</label>
-                        <textarea name="description" type="text" class="form-control" id="description_rented" rows="3" placeholder="Enter Description"></textarea>
+                        <textarea name="description" type="text" class="form-control" id="description_wanted" rows="3" placeholder="Enter Description"></textarea>
                     </div>
             </form>
         </div>
